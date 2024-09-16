@@ -1,10 +1,7 @@
 import UIKit
 
 @available(iOS 17.0, *)
-public enum TUITUIColor {}
-
-@available(iOS 17.0, *)
-public extension TUITUIColor {
+public extension TUIColor {
 
     private static var themeManager: ThemeManagerProtocol = StandardThemeManager()
 
@@ -16,7 +13,7 @@ public extension TUITUIColor {
     {
         return UIColor { traitCollection in
             // important! this will get called when trait changes
-            return TUITUIColor.themeManager.color(for: traitCollection, keyPath: keyPath)
+            return TUIColor.themeManager.color(for: traitCollection, keyPath: keyPath)
         }
     }
 }
