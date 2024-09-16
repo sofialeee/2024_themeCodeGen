@@ -8,7 +8,7 @@
 import UIKit
 
 @available(iOS 17.0, *)
-public struct StandardDark: StyleManagerProtocol {
+public struct CustomDark: StyleManagerProtocol {
     // Base
     public var transparent: UIColor? {
         UIColor.clear
@@ -20,40 +20,40 @@ public struct StandardDark: StyleManagerProtocol {
         .init(red: 0, green: 0, blue: 0, alpha: 1.0)
     }
     public var gray10: UIColor? {
-        .init(red: 0.9411764705882353, green: 0.9490196078431372, blue: 0.9568627450980393, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray15: UIColor? {
-        .init(red: 0.9137254901960784, green: 0.9215686274509803, blue: 0.9333333333333333, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray20: UIColor? {
-        .init(red: 0.8313725490196079, green: 0.8470588235294118, blue: 0.8705882352941177, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray30: UIColor? {
-        .init(red: 0.7254901960784313, green: 0.7490196078431373, blue: 0.7843137254901961, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray40: UIColor? {
-        .init(red: 0.5764705882352941, green: 0.6078431372549019, blue: 0.6549019607843137, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray50: UIColor? {
-        .init(red: 0.48627450980392156, green: 0.5215686274509804, blue: 0.5686274509803921, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray60: UIColor? {
-        .init(red: 0.396078431372549, green: 0.43137254901960786, blue: 0.4823529411764706, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray70: UIColor? {
-        .init(red: 0.3137254901960784, green: 0.34901960784313724, blue: 0.396078431372549, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray80: UIColor? {
-        .init(red: 0.23529411764705882, green: 0.26666666666666666, blue: 0.30980392156862746, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray90: UIColor? {
-        .init(red: 0.12941176470588237, green: 0.14901960784313725, blue: 0.1803921568627451, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray95: UIColor? {
-        .init(red: 0.06666666666666667, green: 0.0784313725490196, blue: 0.09411764705882353, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var gray05: UIColor? {
-        .init(red: 0.9725490196078431, green: 0.9725490196078431, blue: 0.9764705882352941, alpha: 1.0)
+        .init(red: 1.0, green: 0.46, blue: 0.09, alpha: 1.0)
     }
     public var green10: UIColor? {
         .init(red: 0.7843137254901961, green: 1, blue: 0.8196078431372549, alpha: 1.0)

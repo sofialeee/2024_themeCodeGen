@@ -8,7 +8,7 @@
 import UIKit
 
 @available(iOS 17.0, *)
-public struct StandardDark: StyleManagerProtocol {
+public struct CustomLight: StyleManagerProtocol {
     // Base
     public var transparent: UIColor? {
         UIColor.clear
@@ -20,40 +20,40 @@ public struct StandardDark: StyleManagerProtocol {
         .init(red: 0, green: 0, blue: 0, alpha: 1.0)
     }
     public var gray10: UIColor? {
-        .init(red: 0.9411764705882353, green: 0.9490196078431372, blue: 0.9568627450980393, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray15: UIColor? {
-        .init(red: 0.9137254901960784, green: 0.9215686274509803, blue: 0.9333333333333333, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray20: UIColor? {
-        .init(red: 0.8313725490196079, green: 0.8470588235294118, blue: 0.8705882352941177, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray30: UIColor? {
-        .init(red: 0.7254901960784313, green: 0.7490196078431373, blue: 0.7843137254901961, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray40: UIColor? {
-        .init(red: 0.5764705882352941, green: 0.6078431372549019, blue: 0.6549019607843137, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray50: UIColor? {
-        .init(red: 0.48627450980392156, green: 0.5215686274509804, blue: 0.5686274509803921, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray60: UIColor? {
-        .init(red: 0.396078431372549, green: 0.43137254901960786, blue: 0.4823529411764706, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray70: UIColor? {
-        .init(red: 0.3137254901960784, green: 0.34901960784313724, blue: 0.396078431372549, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray80: UIColor? {
-        .init(red: 0.23529411764705882, green: 0.26666666666666666, blue: 0.30980392156862746, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray90: UIColor? {
-        .init(red: 0.12941176470588237, green: 0.14901960784313725, blue: 0.1803921568627451, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray95: UIColor? {
-        .init(red: 0.06666666666666667, green: 0.0784313725490196, blue: 0.09411764705882353, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var gray05: UIColor? {
-        .init(red: 0.9725490196078431, green: 0.9725490196078431, blue: 0.9764705882352941, alpha: 1.0)
+        .init(red: 1.0, green: 0.41, blue: 0.71, alpha: 1.0)
     }
     public var green10: UIColor? {
         .init(red: 0.7843137254901961, green: 1, blue: 0.8196078431372549, alpha: 1.0)
@@ -680,7 +680,7 @@ public struct StandardDark: StyleManagerProtocol {
         white?.withAlphaComponent(0.051)
     }
     // Component
-    public var backgroundBadgeVerifiedDefault: UIColor? { blue50 }
+    public var backgroundBadgeVerifiedDefault: UIColor? { blue60 }
     public var backgroundBadgeOnlineNowDefault: UIColor? { green15 }
     public var textBadgeNotificationDefault: UIColor? { white }
     public var iconContainerBannerDefault0: UIColor? { brandGradientStart }
@@ -689,8 +689,7 @@ public struct StandardDark: StyleManagerProtocol {
     public var backgroundButtonPrimary1: UIColor? { brandGradientEnd }
     public var backgroundButtonPrimarySmall: UIColor? { brandPrimaryA11y }
     public var backgroundButtonPrimaryOverlay: UIColor? { white }
-    public var backgroundButtonDisabled: UIColor? { gray80 }
-    public var backgroundButtonElevated: UIColor? { gray90 }
+    public var backgroundButtonElevated: UIColor? { white }
     public var backgroundButtonSparksNeutral: UIColor? { gray80 }
     public var backgroundButtonSparksExpandProfile: UIColor? { black?.withAlphaComponent(0.6) }
     public var borderButtonSecondaryOverlay: UIColor? { white }
@@ -699,7 +698,7 @@ public struct StandardDark: StyleManagerProtocol {
     public var foregroundButtonPrimaryOverlay: UIColor? { gray90 }
     public var foregroundButtonSecondaryOverlay: UIColor? { white }
     public var foregroundButtonTertiaryOverlay: UIColor? { white }
-    public var foregroundButtonDisabled: UIColor? { gray60 }
+    public var foregroundButtonDisabled: UIColor? { gray50 }
     public var foregroundButtonSparksExpandProfile: UIColor? { white }
     public var backgroundCardSparksHighlightCommon10: UIColor? { sparksPurple60 }
     public var backgroundCardSparksHighlightCommon11: UIColor? { sparksPink45 }
@@ -724,7 +723,7 @@ public struct StandardDark: StyleManagerProtocol {
     public var overlaySubtleCard0: UIColor? { black?.withAlphaComponent(0) }
     public var overlaySubtleCard1: UIColor? { black?.withAlphaComponent(0.5608) }
     public var backgroundChatBubbleSend: UIColor? { blue60 }
-    public var backgroundDatepickerSelected: UIColor? { gray90 }
+    public var backgroundCheckboxDisabled: UIColor? { gray15 }
     public var backgroundGamepadPrimaryDefault: UIColor? { black?.withAlphaComponent(0.8) }
     public var backgroundGamepadPrimaryDisabled: UIColor? { gray90 }
     public var backgroundGamepadPrimaryDisabledOnSuperLike: UIColor? { black?.withAlphaComponent(0.2) }
@@ -738,19 +737,19 @@ public struct StandardDark: StyleManagerProtocol {
     public var backgroundGamepadLikePressed1: UIColor? { teal50 }
     public var backgroundGamepadBoostPressed0: UIColor? { purple60 }
     public var backgroundGamepadBoostPressed1: UIColor? { purple40 }
-    public var backgroundGamepadSparksRewindDefault: UIColor? { gray90 }
+    public var backgroundGamepadSparksRewindDefault: UIColor? { white }
     public var backgroundGamepadSparksRewindPressed0: UIColor? { yellowOrange30 }
     public var backgroundGamepadSparksRewindPressed1: UIColor? { sparksYellow30 }
-    public var backgroundGamepadSparksNopeDefault: UIColor? { gray90 }
+    public var backgroundGamepadSparksNopeDefault: UIColor? { white }
     public var backgroundGamepadSparksNopePressed0: UIColor? { red50 }
     public var backgroundGamepadSparksNopePressed1: UIColor? { sparksPink45 }
-    public var backgroundGamepadSparksSuperLikeDefault: UIColor? { gray90 }
+    public var backgroundGamepadSparksSuperLikeDefault: UIColor? { white }
     public var backgroundGamepadSparksSuperLikePressed0: UIColor? { sparksBlue70 }
     public var backgroundGamepadSparksSuperLikePressed1: UIColor? { sparksTeal20 }
-    public var backgroundGamepadSparksLikeDefault: UIColor? { gray90 }
+    public var backgroundGamepadSparksLikeDefault: UIColor? { white }
     public var backgroundGamepadSparksLikePressed0: UIColor? { sparksGreen40 }
     public var backgroundGamepadSparksLikePressed1: UIColor? { sparksYellow20 }
-    public var backgroundGamepadSparksBoostDefault: UIColor? { gray90 }
+    public var backgroundGamepadSparksBoostDefault: UIColor? { white }
     public var backgroundGamepadSparksBoostPressed0: UIColor? { purple50 }
     public var backgroundGamepadSparksBoostPressed1: UIColor? { fuchsia40 }
     public var borderGamepadPrimaryDisabled: UIColor? { gray80 }
@@ -773,15 +772,15 @@ public struct StandardDark: StyleManagerProtocol {
     public var iconGamepadPrimaryLikeDefault0: UIColor? { green20 }
     public var iconGamepadPrimaryLikeDefault1: UIColor? { teal15 }
     public var iconGamepadPrimaryBoostDefault0: UIColor? { purple60 }
-    public var iconGamepadPrimaryBoostDefault1: UIColor? { fuchsia50 }
-    public var iconGamepadSecondaryRewindDefault0: UIColor? { yellowOrange40 }
+    public var iconGamepadPrimaryBoostDefault1: UIColor? { purple40 }
+    public var iconGamepadSecondaryRewindDefault0: UIColor? { yellowOrange30 }
     public var iconGamepadSecondaryRewindDefault1: UIColor? { yellowOrange15 }
     public var iconGamepadSecondaryNopeDefault0: UIColor? { brandGradientStart }
     public var iconGamepadSecondaryNopeDefault1: UIColor? { brandGradientEnd }
     public var iconGamepadSecondarySuperLikeDefault0: UIColor? { blue50 }
-    public var iconGamepadSecondarySuperLikeDefault1: UIColor? { teal15 }
-    public var iconGamepadSecondaryLikeDefault0: UIColor? { green20 }
-    public var iconGamepadSecondaryLikeDefault1: UIColor? { teal15 }
+    public var iconGamepadSecondarySuperLikeDefault1: UIColor? { teal50 }
+    public var iconGamepadSecondaryLikeDefault0: UIColor? { green50 }
+    public var iconGamepadSecondaryLikeDefault1: UIColor? { teal50 }
     public var iconGamepadSecondaryBoostDefault0: UIColor? { purple60 }
     public var iconGamepadSecondaryBoostDefault1: UIColor? { purple40 }
     public var iconGamepadSparksRewindDefault0: UIColor? { yellowOrange30 }
@@ -803,27 +802,27 @@ public struct StandardDark: StyleManagerProtocol {
     public var iconIconButtonOverlayDisabled: UIColor? { gray80 }
     public var backgroundModalOverlayDefault: UIColor? { black?.withAlphaComponent(0.5569) }
     public var backgroundModalOverlayRecs: UIColor? { black?.withAlphaComponent(0.8) }
-    public var iconNavigationPrimaryInactive: UIColor? { gray60 }
+    public var iconNavigationPrimaryInactive: UIColor? { gray50 }
     public var iconNavigationPrimaryActive0: UIColor? { brandGradientStart }
     public var iconNavigationPrimaryActive1: UIColor? { brandGradientEnd }
-    public var iconNavigationSecondaryEnd: UIColor? { blue60 }
+    public var iconNavigationSecondaryEnd: UIColor? { blue50 }
     public var backgroundPassionsSharedRec0: UIColor? { brandGradientEnd }
     public var backgroundPassionsSharedRec1: UIColor? { fuchsia50 }
-    public var backgroundPassionsEdit: UIColor? { gray40 }
+    public var backgroundPassionsEdit: UIColor? { gray70 }
     public var backgroundPassionsInactiveOverlay: UIColor? { gray70?.withAlphaComponent(0.8) }
     public var backgroundPassionsSharedOverlay: UIColor? { gray80?.withAlphaComponent(0.8) }
     public var backgroundPassionsSparksSharedOverlay0: UIColor? { red50 }
     public var backgroundPassionsSparksSharedOverlay1: UIColor? { fuchsia50 }
     public var backgroundPassionsSparksInactiveOverlay: UIColor? { black?.withAlphaComponent(0.4) }
-    public var backgroundPassionsSparksInactive: UIColor? { gray90 }
+    public var backgroundPassionsSparksInactive: UIColor? { gray10 }
     public var foregroundProgressActive0: UIColor? { brandGradientEnd }
     public var foregroundProgressActive1: UIColor? { fuchsia50 }
-    public var backgroundRadioSelectedDisabled: UIColor? { gray80 }
-    public var iconRadioSelectedDisabled: UIColor? { gray90 }
+    public var backgroundRadioSelectedDisabled: UIColor? { gray30 }
+    public var iconRadioSelectedDisabled: UIColor? { gray15 }
     public var backgroundRecCardContentHidden: UIColor? { white?.withAlphaComponent(0.2471) }
     public var backgroundRecCardBottomDefault: UIColor? { black }
-    public var backgroundRecCardBottomSuperLike: UIColor? { blue60 }
-    public var subCardRecCardSparks: UIColor? { gray95 }
+    public var backgroundRecCardBottomSuperLike: UIColor? { sparksBlue50 }
+    public var subCardRecCardSparks: UIColor? { sparksGrayBlue30 }
     public var swipeOverlayRecCardSparksLike0: UIColor? { sparksGreen40 }
     public var swipeOverlayRecCardSparksLike1: UIColor? { sparksYellow20 }
     public var swipeOverlayRecCardSparksNope0: UIColor? { red50 }
@@ -880,17 +879,18 @@ public struct StandardDark: StyleManagerProtocol {
     public var overlayRecCardIntentF50: UIColor? { purple80?.withAlphaComponent(0.7294) }
     public var overlayRecCardIntentF75: UIColor? { purple90?.withAlphaComponent(0.8667) }
     public var overlayRecCardIntentF100: UIColor? { black }
-    public var overlayRecCardSparksSuperLike0: UIColor? { blue60?.withAlphaComponent(0) }
-    public var overlayRecCardSparksSuperLike25: UIColor? { blue60?.withAlphaComponent(0.3098) }
-    public var overlayRecCardSparksSuperLike50: UIColor? { blue60?.withAlphaComponent(0.702) }
-    public var overlayRecCardSparksSuperLike75: UIColor? { blue60 }
-    public var overlayRecCardSparksSuperLike100: UIColor? { blue60 }
+    public var overlayRecCardSparksSuperLike0: UIColor? { sparksBlue50?.withAlphaComponent(0) }
+    public var overlayRecCardSparksSuperLike25: UIColor? { sparksBlue50?.withAlphaComponent(0.3098) }
+    public var overlayRecCardSparksSuperLike50: UIColor? { sparksBlue50?.withAlphaComponent(0.702) }
+    public var overlayRecCardSparksSuperLike75: UIColor? { sparksBlue50 }
+    public var overlayRecCardSparksSuperLike100: UIColor? { sparksBlue50 }
     public var backgroundSliderDefaultKnobEnabled: UIColor? { white }
-    public var backgroundSliderDefaultKnobDisabled: UIColor? { gray90 }
-    public var backgroundSwitchAltTrackSelected: UIColor? { red95 }
-    public var backgroundSwitchAltTrackUnselected: UIColor? { gray90 }
-    public var backgroundSwitchAltTrackDisabled: UIColor? { gray90 }
-    public var backgroundSwitchAltKnobUnselected: UIColor? { gray60 }
+    public var backgroundSliderDefaultKnobDisabled: UIColor? { white }
+    public var backgroundSwitchAltTrackSelected: UIColor? { red10 }
+    public var backgroundSwitchAltKnobUnselected: UIColor? { gray50 }
+    public var backgroundSwitchAltKnobDisabled: UIColor? { gray30 }
+    public var backgroundSwitchDefaultKnobUnselected: UIColor? { white }
+    public var borderSwitchAltKnobDisabled: UIColor? { gray30 }
     public var backgroundTappyIndicatorActive: UIColor? { white }
     public var backgroundTappyIndicatorInactive: UIColor? { gray70 }
     public var backgroundTappyIndicatorSparksActive: UIColor? { white }
@@ -901,17 +901,18 @@ public struct StandardDark: StyleManagerProtocol {
     public var borderTappyIndicatorSparksActive: UIColor? { gray50 }
     public var borderTappyIndicatorSparksInactive: UIColor? { gray50 }
     public var dividerTappySparks: UIColor? { gray15?.withAlphaComponent(0.1216) }
-    public var backgroundTextFieldQuietHighlight: UIColor? { blue80 }
-    public var backgroundTextFieldLoudHighlight: UIColor? { blue80 }
-    public var backgroundTooltipDefault: UIColor? { gray10 }
-    public var backgroundTooltipRevenueDefault: UIColor? { gray10 }
+    public var backgroundTextFieldQuietHighlight: UIColor? { blue10 }
+    public var backgroundTextFieldLoudHighlight: UIColor? { blue10 }
+    public var borderTextFieldLoudDefault: UIColor? { gray50 }
+    public var backgroundTooltipDefault: UIColor? { gray80 }
+    public var backgroundTooltipRevenueDefault: UIColor? { gray80 }
     public var backgroundTooltipTrustDefault: UIColor? { blue60 }
-    public var borderTooltipDefault: UIColor? { gray10 }
-    public var borderTooltipRevenueBoost: UIColor? { purple50 }
-    public var borderTooltipRevenueNope: UIColor? { red50 }
-    public var borderTooltipRevenueLike: UIColor? { green50 }
-    public var borderTooltipRevenueSuperLike: UIColor? { blue50 }
-    public var borderTooltipRevenueRewind: UIColor? { yellowOrange50 }
+    public var borderTooltipDefault: UIColor? { gray80 }
+    public var borderTooltipRevenueBoost: UIColor? { purple40 }
+    public var borderTooltipRevenueNope: UIColor? { red40 }
+    public var borderTooltipRevenueLike: UIColor? { green40 }
+    public var borderTooltipRevenueSuperLike: UIColor? { blue40 }
+    public var borderTooltipRevenueRewind: UIColor? { yellowOrange40 }
     public var backgroundBadgeBrandDefault: UIColor? { backgroundBrand }
     public var backgroundBadgeNotificationInactive: UIColor? { backgroundTertiary }
     public var backgroundBadgeNotificationActive: UIColor? { backgroundBrand }
@@ -921,22 +922,22 @@ public struct StandardDark: StyleManagerProtocol {
     public var iconBannerDismiss: UIColor? { iconSecondary }
     public var backgroundBottomSheetDefault: UIColor? { backgroundPrimary }
     public var backgroundButtonNeutral: UIColor? { backgroundPrimaryInverse }
+    public var backgroundButtonDisabled: UIColor? { backgroundTertiary }
     public var foregroundButtonNeutral: UIColor? { foregroundPrimaryInverse }
     public var interactiveButtonPrimary: UIColor? { interactivePrimary }
     public var interactiveButtonSecondary: UIColor? { interactiveSecondary }
     public var interactiveButtonTertiary: UIColor? { interactiveSecondary }
     public var interactiveButtonNeutral: UIColor? { interactiveOnLight }
     public var backgroundChatBubbleReceive: UIColor? { backgroundTertiary }
-    public var backgroundCheckboxDisabled: UIColor? { backgroundDisabled }
     public var backgroundCheckboxSelectedEnabled: UIColor? { backgroundBrand }
     public var iconCheckboxSelectedEnabled: UIColor? { iconPrimaryOverlay }
     public var iconCheckboxSelectedDisabled: UIColor? { iconDisabled }
+    public var backgroundDatepickerSelected: UIColor? { backgroundSecondary }
     public var iconFormDefault: UIColor? { iconSecondary }
     public var iconFormDisabled: UIColor? { iconDisabled }
     public var iconFormError: UIColor? { iconError }
     public var iconFormSuccess: UIColor? { iconSuccess }
     public var backgroundGamepadSecondaryDefault: UIColor? { backgroundPrimary }
-    public var backgroundGamepadSecondaryDisabled: UIColor? { backgroundDisabled }
     public var borderGamepadSparksRewindDefault: UIColor? { borderSparksRewind }
     public var borderGamepadSparksNopeDefault: UIColor? { borderSparksNope }
     public var borderGamepadSparksSuperLikeDefault: UIColor? { borderSparksSuperLike }
@@ -952,7 +953,6 @@ public struct StandardDark: StyleManagerProtocol {
     public var iconGamepadSparksLikeActive: UIColor? { iconPrimaryInverse }
     public var iconGamepadSparksBoostActive: UIColor? { iconPrimaryInverse }
     public var backgroundIconButtonSecondary: UIColor? { backgroundPrimary }
-    public var backgroundIconButtonDisabled: UIColor? { backgroundDisabled }
     public var iconIconButtonPrimary: UIColor? { iconPrimaryOverlay }
     public var iconIconButtonSecondary: UIColor? { iconSecondary }
     public var iconIconButtonDisabled: UIColor? { iconDisabled }
@@ -960,14 +960,13 @@ public struct StandardDark: StyleManagerProtocol {
     public var interactiveIconButtonPrimary: UIColor? { interactivePrimary }
     public var interactiveIconButtonSecondary: UIColor? { interactiveOnLight }
     public var interactiveIconButtonOverlay: UIColor? { interactivePrimary }
-    public var backgroundModalContainerDefault: UIColor? { backgroundTertiary }
+    public var backgroundModalContainerDefault: UIColor? { backgroundPrimary }
     public var foregroundModalIcon: UIColor? { iconBrand }
     public var actionNavigationSecondaryDisabled: UIColor? { iconDisabled }
     public var iconNavigationSecondaryStart: UIColor? { iconSecondary }
     public var backgroundPassionsShared: UIColor? { backgroundPrimary }
     public var backgroundProgressInactive: UIColor? { backgroundSecondary }
     public var backgroundRadioSelectedEnabled: UIColor? { backgroundBrand }
-    public var backgroundRadioUnselectedDisabled: UIColor? { backgroundDisabled }
     public var iconRadioSelectedEnabled: UIColor? { iconPrimaryInverse }
     public var iconRecCardContentHidden: UIColor? { iconPrimaryOverlay }
     public var backgroundSearchDefault: UIColor? { backgroundTertiary }
@@ -976,20 +975,16 @@ public struct StandardDark: StyleManagerProtocol {
     public var iconSelectorSelectedEnabled: UIColor? { iconBrand }
     public var iconSelectorSelectedDisabled: UIColor? { iconDisabled }
     public var backgroundSliderAltTrackEnabled: UIColor? { backgroundInactive }
-    public var backgroundSliderAltTrackDisabled: UIColor? { backgroundDisabled }
     public var backgroundSliderAltKnobEnabled: UIColor? { backgroundBrand }
     public var backgroundSliderAltFillEnabled: UIColor? { backgroundBrand }
     public var backgroundSliderDefaultTrackEnabled: UIColor? { backgroundInactive }
-    public var backgroundSliderDefaultTrackDisabled: UIColor? { backgroundDisabled }
     public var backgroundSliderDefaultFillEnabled: UIColor? { backgroundBrand }
+    public var backgroundSwitchAltTrackUnselected: UIColor? { backgroundTertiary }
     public var backgroundSwitchAltKnobSelected: UIColor? { backgroundBrand }
-    public var backgroundSwitchAltKnobDisabled: UIColor? { iconDisabled }
     public var backgroundSwitchDefaultTrackSelected: UIColor? { backgroundBrand }
     public var backgroundSwitchDefaultTrackUnselected: UIColor? { backgroundInactive }
-    public var backgroundSwitchDefaultTrackDisabled: UIColor? { backgroundDisabled }
     public var backgroundSwitchDefaultKnobSelected: UIColor? { iconPrimaryOverlay }
-    public var backgroundSwitchDefaultKnobUnselected: UIColor? { iconPrimaryOverlay }
-    public var backgroundSwitchDefaultKnobDisabled: UIColor? { backgroundDisabled }
+    public var backgroundSwitchDefaultKnobDisabled: UIColor? { iconPrimaryOverlay }
     public var iconSwitchAltSelected: UIColor? { iconPrimaryOverlay }
     public var iconSwitchAltUnselected: UIColor? { iconPrimaryOverlay }
     public var iconSwitchAltDisabled: UIColor? { iconPrimaryOverlay }
@@ -1001,7 +996,7 @@ public struct StandardDark: StyleManagerProtocol {
     public var backgroundTableRowHover: UIColor? { interactiveSecondary }
     public var backgroundTextFieldQuietDefault: UIColor? { backgroundPrimary }
     public var backgroundTextFieldLoudDefault: UIColor? { backgroundSecondary }
-    public var backgroundToastDefault: UIColor? { backgroundSecondaryInverse }
+    public var backgroundToastDefault: UIColor? { backgroundTertiaryInverse }
     public var iconTooltipDismiss: UIColor? { iconPrimaryInverse }
     public var textBadgeNotificationInactive: UIColor? { textInactive }
     public var textBannerHeading: UIColor? { textPrimary }
@@ -1024,11 +1019,13 @@ public struct StandardDark: StyleManagerProtocol {
     public var textFormHelpSuccess: UIColor? { textSuccess }
     public var textFormHelpError: UIColor? { textError }
     public var textFormHelpDisabled: UIColor? { textDisabled }
+    public var backgroundGamepadSecondaryDisabled: UIColor? { backgroundDisabled }
     public var borderGamepadSecondaryDisabled: UIColor? { borderDisabled }
     public var borderGamepadSuperLikeActive: UIColor? { borderOverlay }
     public var iconGamepadPrimarySuperLikeActive: UIColor? { borderOverlay }
     public var labelGamepadSecondaryCountSuperLike: UIColor? { textSuperLike }
     public var labelGamepadSecondaryCountBoost: UIColor? { textBoost }
+    public var backgroundIconButtonDisabled: UIColor? { backgroundDisabled }
     public var labelIconButtonPrimary: UIColor? { textSecondary }
     public var labelIconButtonSecondary: UIColor? { textSecondary }
     public var labelIconButtonDisabled: UIColor? { textSecondary }
@@ -1049,6 +1046,7 @@ public struct StandardDark: StyleManagerProtocol {
     public var textPassionsSharedRec: UIColor? { textPrimaryOverlay }
     public var textPassionsInactiveOverlay: UIColor? { textPrimaryOverlay }
     public var textPassionsSharedOverlay: UIColor? { textPrimaryOverlay }
+    public var backgroundRadioUnselectedDisabled: UIColor? { backgroundDisabled }
     public var borderRadioSelectedEnabled: UIColor? { borderBrand }
     public var borderRadioSelectedDisabled: UIColor? { borderDisabled }
     public var borderRadioUnselectedEnabled: UIColor? { borderPrimary }
@@ -1059,19 +1057,22 @@ public struct StandardDark: StyleManagerProtocol {
     public var textSearchPlaceholderInactive: UIColor? { textInactive }
     public var textSearchInputActive: UIColor? { textPrimary }
     public var textSearchInputInactive: UIColor? { textPrimary }
+    public var backgroundSliderAltTrackDisabled: UIColor? { backgroundDisabled }
     public var backgroundSliderAltKnobDisabled: UIColor? { borderDisabled }
     public var backgroundSliderAltFillDisabled: UIColor? { borderDisabled }
+    public var backgroundSliderDefaultTrackDisabled: UIColor? { backgroundDisabled }
     public var backgroundSliderDefaultFillDisabled: UIColor? { borderDisabled }
     public var borderSliderAltKnobEnabled: UIColor? { borderBrand }
     public var borderSliderAltKnobDisabled: UIColor? { borderDisabled }
     public var borderSliderDefaultKnobEnabled: UIColor? { borderPrimary }
     public var borderSliderDefaultKnobDisabled: UIColor? { borderDisabled }
+    public var backgroundSwitchAltTrackDisabled: UIColor? { backgroundDisabled }
+    public var backgroundSwitchDefaultTrackDisabled: UIColor? { backgroundDisabled }
     public var borderSwitchAltTrackSelected: UIColor? { borderBrand }
     public var borderSwitchAltTrackUnselected: UIColor? { borderPrimary }
     public var borderSwitchAltTrackDisabled: UIColor? { borderDisabled }
     public var borderSwitchAltKnobSelected: UIColor? { borderBrand }
     public var borderSwitchAltKnobUnselected: UIColor? { borderPrimary }
-    public var borderSwitchAltKnobDisabled: UIColor? { borderDisabled }
     public var borderSwitchDefaultTrackSelected: UIColor? { borderBrand }
     public var borderSwitchDefaultTrackUnselected: UIColor? { borderPrimary }
     public var borderSwitchDefaultTrackDisabled: UIColor? { borderDisabled }
@@ -1089,7 +1090,6 @@ public struct StandardDark: StyleManagerProtocol {
     public var borderTextFieldQuietError: UIColor? { borderError }
     public var borderTextFieldQuietFocus: UIColor? { borderActive }
     public var borderTextFieldQuietDisabled: UIColor? { borderDisabled }
-    public var borderTextFieldLoudDefault: UIColor? { borderDisabled }
     public var borderTextFieldLoudError: UIColor? { borderError }
     public var borderTextFieldLoudFocus: UIColor? { borderActive }
     public var borderTextFieldLoudDisabled: UIColor? { borderDisabled }
@@ -1114,185 +1114,185 @@ public struct StandardDark: StyleManagerProtocol {
 
 
     // Invertible
-    public var invertibleWhite: UIColor? { black }
-    public var invertibleBlack: UIColor? { white }
-    public var invertibleGray10: UIColor? { gray95 }
-    public var invertibleGray15: UIColor? { gray90 }
-    public var invertibleGray20: UIColor? { gray80 }
-    public var invertibleGray30: UIColor? { gray80 }
-    public var invertibleGray40: UIColor? { gray70 }
-    public var invertibleGray50: UIColor? { gray60 }
-    public var invertibleGray60: UIColor? { gray50 }
-    public var invertibleGray70: UIColor? { gray40 }
-    public var invertibleGray80: UIColor? { gray20 }
-    public var invertibleGray90: UIColor? { gray15 }
-    public var invertibleGray95: UIColor? { gray10 }
-    public var invertibleGray05: UIColor? { gray95 }
-    public var invertibleGreen10: UIColor? { green95 }
-    public var invertibleGreen15: UIColor? { green90 }
-    public var invertibleGreen20: UIColor? { green80 }
-    public var invertibleGreen30: UIColor? { green80 }
-    public var invertibleGreen40: UIColor? { green70 }
-    public var invertibleGreen50: UIColor? { green60 }
-    public var invertibleGreen60: UIColor? { green50 }
-    public var invertibleGreen70: UIColor? { green40 }
-    public var invertibleGreen80: UIColor? { green20 }
-    public var invertibleGreen90: UIColor? { green15 }
-    public var invertibleGreen95: UIColor? { green10 }
-    public var invertibleGreen05: UIColor? { green95 }
-    public var invertibleTeal10: UIColor? { teal95 }
-    public var invertibleTeal15: UIColor? { teal90 }
-    public var invertibleTeal20: UIColor? { teal80 }
-    public var invertibleTeal30: UIColor? { teal80 }
-    public var invertibleTeal40: UIColor? { teal70 }
-    public var invertibleTeal50: UIColor? { teal60 }
-    public var invertibleTeal60: UIColor? { teal50 }
-    public var invertibleTeal70: UIColor? { teal40 }
-    public var invertibleTeal80: UIColor? { teal20 }
-    public var invertibleTeal90: UIColor? { teal15 }
-    public var invertibleTeal95: UIColor? { teal10 }
-    public var invertibleTeal05: UIColor? { teal95 }
-    public var invertibleBlue10: UIColor? { blue95 }
-    public var invertibleBlue15: UIColor? { blue90 }
-    public var invertibleBlue20: UIColor? { blue80 }
-    public var invertibleBlue30: UIColor? { blue80 }
-    public var invertibleBlue40: UIColor? { blue70 }
-    public var invertibleBlue50: UIColor? { blue60 }
-    public var invertibleBlue60: UIColor? { blue50 }
-    public var invertibleBlue70: UIColor? { blue40 }
-    public var invertibleBlue80: UIColor? { blue20 }
-    public var invertibleBlue90: UIColor? { blue15 }
-    public var invertibleBlue95: UIColor? { blue10 }
-    public var invertibleBlue05: UIColor? { blue95 }
-    public var invertiblePurple10: UIColor? { purple95 }
-    public var invertiblePurple15: UIColor? { purple90 }
-    public var invertiblePurple20: UIColor? { purple80 }
-    public var invertiblePurple30: UIColor? { purple80 }
-    public var invertiblePurple40: UIColor? { purple70 }
-    public var invertiblePurple50: UIColor? { purple60 }
-    public var invertiblePurple60: UIColor? { purple50 }
-    public var invertiblePurple70: UIColor? { purple40 }
-    public var invertiblePurple80: UIColor? { purple20 }
-    public var invertiblePurple90: UIColor? { purple15 }
-    public var invertiblePurple95: UIColor? { purple10 }
-    public var invertiblePurple05: UIColor? { purple95 }
-    public var invertibleFuchsia10: UIColor? { fuchsia95 }
-    public var invertibleFuchsia15: UIColor? { fuchsia90 }
-    public var invertibleFuchsia20: UIColor? { fuchsia80 }
-    public var invertibleFuchsia30: UIColor? { fuchsia80 }
-    public var invertibleFuchsia40: UIColor? { fuchsia70 }
-    public var invertibleFuchsia50: UIColor? { fuchsia60 }
-    public var invertibleFuchsia60: UIColor? { fuchsia50 }
-    public var invertibleFuchsia70: UIColor? { fuchsia40 }
-    public var invertibleFuchsia80: UIColor? { fuchsia20 }
-    public var invertibleFuchsia90: UIColor? { fuchsia15 }
-    public var invertibleFuchsia95: UIColor? { fuchsia10 }
-    public var invertibleFuchsia05: UIColor? { fuchsia95 }
-    public var invertibleRed10: UIColor? { red95 }
-    public var invertibleRed15: UIColor? { red90 }
-    public var invertibleRed20: UIColor? { red80 }
-    public var invertibleRed30: UIColor? { red80 }
-    public var invertibleRed40: UIColor? { red70 }
-    public var invertibleRed50: UIColor? { red60 }
-    public var invertibleRed60: UIColor? { red50 }
-    public var invertibleRed70: UIColor? { red40 }
-    public var invertibleRed80: UIColor? { red20 }
-    public var invertibleRed90: UIColor? { red15 }
-    public var invertibleRed95: UIColor? { red10 }
-    public var invertibleRed05: UIColor? { red95 }
-    public var invertibleYellowOrange10: UIColor? { yellowOrange95 }
-    public var invertibleYellowOrange15: UIColor? { yellowOrange90 }
-    public var invertibleYellowOrange20: UIColor? { yellowOrange80 }
-    public var invertibleYellowOrange30: UIColor? { yellowOrange80 }
-    public var invertibleYellowOrange40: UIColor? { yellowOrange70 }
-    public var invertibleYellowOrange50: UIColor? { yellowOrange60 }
-    public var invertibleYellowOrange60: UIColor? { yellowOrange50 }
-    public var invertibleYellowOrange70: UIColor? { yellowOrange40 }
-    public var invertibleYellowOrange80: UIColor? { yellowOrange20 }
-    public var invertibleYellowOrange90: UIColor? { yellowOrange15 }
-    public var invertibleYellowOrange95: UIColor? { yellowOrange10 }
-    public var invertibleYellowOrange05: UIColor? { yellowOrange95 }
-    public var invertibleGold10: UIColor? { gold95 }
-    public var invertibleGold15: UIColor? { gold90 }
-    public var invertibleGold20: UIColor? { gold80 }
-    public var invertibleGold30: UIColor? { gold80 }
-    public var invertibleGold40: UIColor? { gold70 }
-    public var invertibleGold50: UIColor? { gold60 }
-    public var invertibleGold60: UIColor? { gold50 }
-    public var invertibleGold70: UIColor? { gold40 }
-    public var invertibleGold80: UIColor? { gold20 }
-    public var invertibleGold90: UIColor? { gold15 }
-    public var invertibleGold95: UIColor? { gold10 }
-    public var invertibleGold05: UIColor? { gold95 }
+    public var invertibleWhite: UIColor? { white }
+    public var invertibleBlack: UIColor? { black }
+    public var invertibleGray10: UIColor? { gray10 }
+    public var invertibleGray15: UIColor? { gray15 }
+    public var invertibleGray20: UIColor? { gray20 }
+    public var invertibleGray30: UIColor? { gray30 }
+    public var invertibleGray40: UIColor? { gray40 }
+    public var invertibleGray50: UIColor? { gray50 }
+    public var invertibleGray60: UIColor? { gray60 }
+    public var invertibleGray70: UIColor? { gray70 }
+    public var invertibleGray80: UIColor? { gray80 }
+    public var invertibleGray90: UIColor? { gray90 }
+    public var invertibleGray95: UIColor? { gray95 }
+    public var invertibleGray05: UIColor? { gray05 }
+    public var invertibleGreen10: UIColor? { green10 }
+    public var invertibleGreen15: UIColor? { green15 }
+    public var invertibleGreen20: UIColor? { green20 }
+    public var invertibleGreen30: UIColor? { green30 }
+    public var invertibleGreen40: UIColor? { green40 }
+    public var invertibleGreen50: UIColor? { green50 }
+    public var invertibleGreen60: UIColor? { green60 }
+    public var invertibleGreen70: UIColor? { green70 }
+    public var invertibleGreen80: UIColor? { green80 }
+    public var invertibleGreen90: UIColor? { green90 }
+    public var invertibleGreen95: UIColor? { green95 }
+    public var invertibleGreen05: UIColor? { green05 }
+    public var invertibleTeal10: UIColor? { teal10 }
+    public var invertibleTeal15: UIColor? { teal15 }
+    public var invertibleTeal20: UIColor? { teal20 }
+    public var invertibleTeal30: UIColor? { teal30 }
+    public var invertibleTeal40: UIColor? { teal40 }
+    public var invertibleTeal50: UIColor? { teal50 }
+    public var invertibleTeal60: UIColor? { teal60 }
+    public var invertibleTeal70: UIColor? { teal70 }
+    public var invertibleTeal80: UIColor? { teal80 }
+    public var invertibleTeal90: UIColor? { teal90 }
+    public var invertibleTeal95: UIColor? { teal95 }
+    public var invertibleTeal05: UIColor? { teal05 }
+    public var invertibleBlue10: UIColor? { blue10 }
+    public var invertibleBlue15: UIColor? { blue15 }
+    public var invertibleBlue20: UIColor? { blue20 }
+    public var invertibleBlue30: UIColor? { blue30 }
+    public var invertibleBlue40: UIColor? { blue40 }
+    public var invertibleBlue50: UIColor? { blue50 }
+    public var invertibleBlue60: UIColor? { blue60 }
+    public var invertibleBlue70: UIColor? { blue70 }
+    public var invertibleBlue80: UIColor? { blue80 }
+    public var invertibleBlue90: UIColor? { blue90 }
+    public var invertibleBlue95: UIColor? { blue95 }
+    public var invertibleBlue05: UIColor? { blue05 }
+    public var invertiblePurple10: UIColor? { purple10 }
+    public var invertiblePurple15: UIColor? { purple15 }
+    public var invertiblePurple20: UIColor? { purple20 }
+    public var invertiblePurple30: UIColor? { purple30 }
+    public var invertiblePurple40: UIColor? { purple40 }
+    public var invertiblePurple50: UIColor? { purple50 }
+    public var invertiblePurple60: UIColor? { purple60 }
+    public var invertiblePurple70: UIColor? { purple70 }
+    public var invertiblePurple80: UIColor? { purple80 }
+    public var invertiblePurple90: UIColor? { purple90 }
+    public var invertiblePurple95: UIColor? { purple95 }
+    public var invertiblePurple05: UIColor? { purple05 }
+    public var invertibleFuchsia10: UIColor? { fuchsia10 }
+    public var invertibleFuchsia15: UIColor? { fuchsia15 }
+    public var invertibleFuchsia20: UIColor? { fuchsia20 }
+    public var invertibleFuchsia30: UIColor? { fuchsia30 }
+    public var invertibleFuchsia40: UIColor? { fuchsia40 }
+    public var invertibleFuchsia50: UIColor? { fuchsia50 }
+    public var invertibleFuchsia60: UIColor? { fuchsia60 }
+    public var invertibleFuchsia70: UIColor? { fuchsia70 }
+    public var invertibleFuchsia80: UIColor? { fuchsia80 }
+    public var invertibleFuchsia90: UIColor? { fuchsia90 }
+    public var invertibleFuchsia95: UIColor? { fuchsia95 }
+    public var invertibleFuchsia05: UIColor? { fuchsia05 }
+    public var invertibleRed10: UIColor? { red10 }
+    public var invertibleRed15: UIColor? { red15 }
+    public var invertibleRed20: UIColor? { red20 }
+    public var invertibleRed30: UIColor? { red30 }
+    public var invertibleRed40: UIColor? { red40 }
+    public var invertibleRed50: UIColor? { red50 }
+    public var invertibleRed60: UIColor? { red60 }
+    public var invertibleRed70: UIColor? { red70 }
+    public var invertibleRed80: UIColor? { red80 }
+    public var invertibleRed90: UIColor? { red90 }
+    public var invertibleRed95: UIColor? { red95 }
+    public var invertibleRed05: UIColor? { red05 }
+    public var invertibleYellowOrange10: UIColor? { yellowOrange10 }
+    public var invertibleYellowOrange15: UIColor? { yellowOrange15 }
+    public var invertibleYellowOrange20: UIColor? { yellowOrange20 }
+    public var invertibleYellowOrange30: UIColor? { yellowOrange30 }
+    public var invertibleYellowOrange40: UIColor? { yellowOrange40 }
+    public var invertibleYellowOrange50: UIColor? { yellowOrange50 }
+    public var invertibleYellowOrange60: UIColor? { yellowOrange60 }
+    public var invertibleYellowOrange70: UIColor? { yellowOrange70 }
+    public var invertibleYellowOrange80: UIColor? { yellowOrange80 }
+    public var invertibleYellowOrange90: UIColor? { yellowOrange90 }
+    public var invertibleYellowOrange95: UIColor? { yellowOrange95 }
+    public var invertibleYellowOrange05: UIColor? { yellowOrange05 }
+    public var invertibleGold10: UIColor? { gold10 }
+    public var invertibleGold15: UIColor? { gold15 }
+    public var invertibleGold20: UIColor? { gold20 }
+    public var invertibleGold30: UIColor? { gold30 }
+    public var invertibleGold40: UIColor? { gold40 }
+    public var invertibleGold50: UIColor? { gold50 }
+    public var invertibleGold60: UIColor? { gold60 }
+    public var invertibleGold70: UIColor? { gold70 }
+    public var invertibleGold80: UIColor? { gold80 }
+    public var invertibleGold90: UIColor? { gold90 }
+    public var invertibleGold95: UIColor? { gold95 }
+    public var invertibleGold05: UIColor? { gold05 }
 
 
     // Semantic
     public var accentPrimary: UIColor? { brandPrimary }
     public var accentPrimaryGradient0: UIColor? { brandGradientStart }
     public var accentPrimaryGradient1: UIColor? { brandGradientEnd }
-    public var accentPrimaryA11y: UIColor? { brandPrimary }
+    public var accentPrimaryA11y: UIColor? { brandPrimaryA11y }
     public var accentBrand: UIColor? { brandPrimary }
     public var accentBrandGradient0: UIColor? { brandGradientStart }
     public var accentBrandGradient1: UIColor? { brandGradientEnd }
-    public var accentLikeGradient0: UIColor? { green20 }
-    public var accentLikeGradient1: UIColor? { teal15 }
+    public var accentLikeGradient0: UIColor? { green50 }
+    public var accentLikeGradient1: UIColor? { teal50 }
     public var accentSparksLikeGradient0: UIColor? { sparksGreen40 }
     public var accentSparksLikeGradient1: UIColor? { sparksYellow20 }
-    public var accentLike: UIColor? { green50 }
-    public var accentNopeGradient0: UIColor? { red50 }
-    public var accentNopeGradient1: UIColor? { fuchsia50 }
+    public var accentLike: UIColor? { green60 }
+    public var accentNopeGradient0: UIColor? { brandGradientStart }
+    public var accentNopeGradient1: UIColor? { brandGradientEnd }
     public var accentSparksNopeGradient0: UIColor? { red50 }
     public var accentSparksNopeGradient1: UIColor? { sparksPink45 }
-    public var accentNope: UIColor? { red50 }
+    public var accentNope: UIColor? { red60 }
     public var accentSuperLikeGradient0: UIColor? { blue50 }
-    public var accentSuperLikeGradient1: UIColor? { teal15 }
+    public var accentSuperLikeGradient1: UIColor? { teal50 }
     public var accentSparksSuperLikeGradient0: UIColor? { sparksBlue70 }
     public var accentSparksSuperLikeGradient1: UIColor? { sparksTeal20 }
-    public var accentSuperLike: UIColor? { blue50 }
+    public var accentSuperLike: UIColor? { blue60 }
     public var accentBoostGradient0: UIColor? { purple60 }
-    public var accentBoostGradient1: UIColor? { fuchsia50 }
+    public var accentBoostGradient1: UIColor? { purple40 }
     public var accentSparksBoostGradient0: UIColor? { purple50 }
     public var accentSparksBoostGradient1: UIColor? { fuchsia40 }
-    public var accentBoost: UIColor? { purple50 }
-    public var accentRewindGradient0: UIColor? { yellowOrange40 }
+    public var accentBoost: UIColor? { purple60 }
+    public var accentRewindGradient0: UIColor? { yellowOrange30 }
     public var accentRewindGradient1: UIColor? { yellowOrange15 }
     public var accentSparksRewindGradient0: UIColor? { yellowOrange30 }
     public var accentSparksRewindGradient1: UIColor? { sparksYellow30 }
-    public var accentRewind: UIColor? { yellowOrange50 }
+    public var accentRewind: UIColor? { yellowOrange60 }
     public var accentGoldGradient0: UIColor? { gold30 }
-    public var accentGoldGradient1: UIColor? { gold15 }
+    public var accentGoldGradient1: UIColor? { gold20 }
     public var accentGoldShineGradient0: UIColor? { gold30 }
     public var accentGoldShineGradient5: UIColor? { gold20 }
     public var accentGoldShineGradient10: UIColor? { gold30 }
-    public var accentGold: UIColor? { gold50 }
-    public var accentPlatinumGradient0: UIColor? { gray30 }
-    public var accentPlatinumGradient1: UIColor? { gray10 }
-    public var accentPlatinumShineGradient0: UIColor? { gray30 }
-    public var accentPlatinumShineGradient5: UIColor? { gray10 }
-    public var accentPlatinumShineGradient10: UIColor? { gray30 }
-    public var accentPlatinum: UIColor? { gray10 }
-    public var accentPlatinumGradientInverse0: UIColor? { gray95 }
-    public var accentPlatinumGradientInverse1: UIColor? { gray60 }
-    public var accentPlatinumShineGradientInverse0: UIColor? { gray95 }
-    public var accentPlatinumShineGradientInverse5: UIColor? { gray60 }
-    public var accentPlatinumShineGradientInverse10: UIColor? { gray95 }
+    public var accentGold: UIColor? { gold60 }
+    public var accentPlatinumGradient0: UIColor? { gray95 }
+    public var accentPlatinumGradient1: UIColor? { gray60 }
+    public var accentPlatinumShineGradient0: UIColor? { gray95 }
+    public var accentPlatinumShineGradient5: UIColor? { gray60 }
+    public var accentPlatinumShineGradient10: UIColor? { gray95 }
+    public var accentPlatinum: UIColor? { gray95 }
+    public var accentPlatinumGradientInverse0: UIColor? { gray30 }
+    public var accentPlatinumGradientInverse1: UIColor? { gray10 }
+    public var accentPlatinumShineGradientInverse0: UIColor? { gray30 }
+    public var accentPlatinumShineGradientInverse5: UIColor? { gray10 }
+    public var accentPlatinumShineGradientInverse10: UIColor? { gray30 }
     public var accentSelectGradient0: UIColor? { purple60 }
     public var accentSelectGradient5: UIColor? { vaultPrimary }
     public var accentSelectGradient10: UIColor? { blue60 }
-    public var accentSelect: UIColor? { vaultPrimaryLight }
-    public var accentError: UIColor? { red50 }
-    public var accentSuccess: UIColor? { green50 }
-    public var accentActive: UIColor? { blue50 }
-    public var accentLink: UIColor? { blue50 }
+    public var accentSelect: UIColor? { vaultPrimary }
+    public var accentError: UIColor? { red60 }
+    public var accentSuccess: UIColor? { green60 }
+    public var accentActive: UIColor? { blue60 }
+    public var accentLink: UIColor? { blue60 }
     public var accentChat: UIColor? { blue60 }
-    public var accentTrust: UIColor? { blue50 }
-    public var accentBlue: UIColor? { blue50 }
-    public var accentFuchsia: UIColor? { fuchsia50 }
-    public var accentGreen: UIColor? { green50 }
-    public var accentPurple: UIColor? { purple50 }
-    public var accentRed: UIColor? { red50 }
-    public var accentTeal: UIColor? { teal50 }
-    public var accentYellowOrange: UIColor? { yellowOrange50 }
+    public var accentTrust: UIColor? { blue60 }
+    public var accentBlue: UIColor? { blue60 }
+    public var accentFuchsia: UIColor? { fuchsia60 }
+    public var accentGreen: UIColor? { green60 }
+    public var accentPurple: UIColor? { purple60 }
+    public var accentRed: UIColor? { red60 }
+    public var accentTeal: UIColor? { teal60 }
+    public var accentYellowOrange: UIColor? { yellowOrange60 }
     public var accentExploreGradient0: UIColor? { brandPrimaryA11y }
     public var accentExploreGradient1: UIColor? { fuchsia70 }
     public var accentFestivalModeGradient0: UIColor? { blue80 }
@@ -1301,8 +1301,8 @@ public struct StandardDark: StyleManagerProtocol {
     public var accentSpotifyMusicModeGradient1: UIColor? { green70 }
     public var accentHotTakesGradient0: UIColor? { purple80 }
     public var accentHotTakesGradient1: UIColor? { fuchsia60 }
-    public var accentMatchExpirationGradient0: UIColor? { matchExpirationPrimaryOnDark }
-    public var accentMatchExpirationGradient1: UIColor? { fuchsia50 }
+    public var accentMatchExpirationGradient0: UIColor? { matchExpirationPrimary }
+    public var accentMatchExpirationGradient1: UIColor? { matchExpirationSecondary }
     public var accentPassionsGradient0: UIColor? { brandGradientEnd }
     public var accentPassionsGradient1: UIColor? { fuchsia50 }
     public var accentVibesGradient0: UIColor? { yellowOrange30 }
@@ -1310,13 +1310,13 @@ public struct StandardDark: StyleManagerProtocol {
     public var accentVibesGradient10: UIColor? { teal20 }
     public var accentMatchmakerGradient0: UIColor? { sparksGreen30 }
     public var accentMatchmakerGradient1: UIColor? { sparksGreen20 }
-    public var backgroundPrimary: UIColor? { gray95 }
-    public var backgroundPrimaryInverse: UIColor? { white }
-    public var backgroundSecondary: UIColor? { black }
-    public var backgroundSecondaryInverse: UIColor? { gray10 }
-    public var backgroundTertiary: UIColor? { gray90 }
-    public var backgroundTertiaryInverse: UIColor? { gray15 }
-    public var backgroundInactive: UIColor? { gray60 }
+    public var backgroundPrimary: UIColor? { white }
+    public var backgroundPrimaryInverse: UIColor? { black }
+    public var backgroundSecondary: UIColor? { gray10 }
+    public var backgroundSecondaryInverse: UIColor? { gray95 }
+    public var backgroundTertiary: UIColor? { gray15 }
+    public var backgroundTertiaryInverse: UIColor? { gray90 }
+    public var backgroundInactive: UIColor? { gray50 }
     public var backgroundPrimaryStaticLight: UIColor? { white }
     public var backgroundPrimaryStaticDark: UIColor? { gray95 }
     public var backgroundSecondaryStaticLight: UIColor? { gray10 }
@@ -1326,90 +1326,89 @@ public struct StandardDark: StyleManagerProtocol {
     public var backgroundBrand: UIColor? { brandPrimary }
     public var backgroundBrandGradient0: UIColor? { brandGradientStart }
     public var backgroundBrandGradient1: UIColor? { brandGradientEnd }
-    public var backgroundBrandSubtle0: UIColor? { gray95 }
-    public var backgroundBrandSubtle1: UIColor? { red95 }
+    public var backgroundBrandSubtle0: UIColor? { white }
+    public var backgroundBrandSubtle1: UIColor? { red20 }
     public var backgroundError: UIColor? { red60 }
-    public var backgroundRewind0: UIColor? { yellowOrange40 }
+    public var backgroundRewind0: UIColor? { yellowOrange30 }
     public var backgroundRewind1: UIColor? { yellowOrange15 }
-    public var backgroundRewindInverse0: UIColor? { yellowOrange30 }
+    public var backgroundRewindInverse0: UIColor? { yellowOrange40 }
     public var backgroundRewindInverse1: UIColor? { yellowOrange15 }
-    public var backgroundNope0: UIColor? { red50 }
-    public var backgroundNope1: UIColor? { fuchsia50 }
-    public var backgroundNopeInverse0: UIColor? { brandGradientStart }
-    public var backgroundNopeInverse1: UIColor? { brandGradientEnd }
-    public var backgroundSuperLike0: UIColor? { blue50 }
-    public var backgroundSuperLike1: UIColor? { teal15 }
-    public var backgroundSuperLikeInverse0: UIColor? { blue40 }
-    public var backgroundSuperLikeInverse1: UIColor? { teal20 }
-    public var backgroundSuperLikeSubtle0: UIColor? { gray95 }
-    public var backgroundSuperLikeSubtle1: UIColor? { blue90 }
-    public var backgroundLike0: UIColor? { green20 }
-    public var backgroundLike1: UIColor? { teal15 }
-    public var backgroundLikeInverse0: UIColor? { green30 }
-    public var backgroundLikeInverse1: UIColor? { teal20 }
-    public var backgroundLikeSubtle0: UIColor? { gray95 }
-    public var backgroundLikeSubtle1: UIColor? { green90 }
+    public var backgroundNope0: UIColor? { brandGradientStart }
+    public var backgroundNope1: UIColor? { brandGradientEnd }
+    public var backgroundNopeInverse0: UIColor? { red50 }
+    public var backgroundNopeInverse1: UIColor? { fuchsia50 }
+    public var backgroundSuperLike0: UIColor? { blue40 }
+    public var backgroundSuperLike1: UIColor? { teal20 }
+    public var backgroundSuperLikeInverse0: UIColor? { blue50 }
+    public var backgroundSuperLikeInverse1: UIColor? { teal15 }
+    public var backgroundSuperLikeSubtle0: UIColor? { white }
+    public var backgroundSuperLikeSubtle1: UIColor? { blue15 }
+    public var backgroundLike0: UIColor? { green30 }
+    public var backgroundLike1: UIColor? { teal20 }
+    public var backgroundLikeInverse0: UIColor? { green20 }
+    public var backgroundLikeInverse1: UIColor? { teal15 }
+    public var backgroundLikeSubtle0: UIColor? { white }
+    public var backgroundLikeSubtle1: UIColor? { green10 }
     public var backgroundBoost0: UIColor? { purple60 }
-    public var backgroundBoost1: UIColor? { fuchsia50 }
+    public var backgroundBoost1: UIColor? { purple40 }
     public var backgroundBoostInverse0: UIColor? { purple60 }
-    public var backgroundBoostInverse1: UIColor? { purple40 }
-    public var backgroundBoostSubtle0: UIColor? { gray95 }
-    public var backgroundBoostSubtle1: UIColor? { purple90 }
+    public var backgroundBoostInverse1: UIColor? { fuchsia50 }
+    public var backgroundBoostSubtle0: UIColor? { white }
+    public var backgroundBoostSubtle1: UIColor? { purple15 }
     public var backgroundSuperBoost0: UIColor? { purple50 }
     public var backgroundSuperBoost1: UIColor? { fuchsia30 }
     public var backgroundSuperBoostInverse0: UIColor? { purple50 }
     public var backgroundSuperBoostInverse1: UIColor? { fuchsia30 }
-    public var backgroundSuperBoostSubtle0: UIColor? { gray95 }
-    public var backgroundSuperBoostSubtle1: UIColor? { fuchsia90 }
-    public var backgroundPlusSubtle0: UIColor? { gray95 }
-    public var backgroundPlusSubtle1: UIColor? { red95 }
-    public var backgroundDisabled: UIColor? { gray90 }
+    public var backgroundSuperBoostSubtle0: UIColor? { white }
+    public var backgroundSuperBoostSubtle1: UIColor? { fuchsia15 }
+    public var backgroundPlusSubtle0: UIColor? { white }
+    public var backgroundPlusSubtle1: UIColor? { red20 }
     public var backgroundGold0: UIColor? { gold30 }
-    public var backgroundGold1: UIColor? { gold15 }
+    public var backgroundGold1: UIColor? { gold20 }
     public var backgroundGoldInverse0: UIColor? { gold30 }
-    public var backgroundGoldInverse1: UIColor? { gold20 }
+    public var backgroundGoldInverse1: UIColor? { gold15 }
     public var backgroundGoldShine0: UIColor? { gold30 }
     public var backgroundGoldShine5: UIColor? { gold20 }
     public var backgroundGoldShine10: UIColor? { gold30 }
     public var backgroundGoldShineInverse0: UIColor? { gold30 }
     public var backgroundGoldShineInverse5: UIColor? { gold20 }
     public var backgroundGoldShineInverse10: UIColor? { gold30 }
-    public var backgroundGoldSubtle0: UIColor? { gray95 }
-    public var backgroundGoldSubtle1: UIColor? { gold90 }
-    public var backgroundPlatinum0: UIColor? { gray30 }
-    public var backgroundPlatinum1: UIColor? { gray10 }
-    public var backgroundPlatinumInverse0: UIColor? { gray95 }
-    public var backgroundPlatinumInverse1: UIColor? { gray60 }
-    public var backgroundPlatinumShine0: UIColor? { gray30 }
-    public var backgroundPlatinumShine5: UIColor? { gray10 }
-    public var backgroundPlatinumShine10: UIColor? { gray30 }
-    public var backgroundPlatinumShineInverse0: UIColor? { gray95 }
-    public var backgroundPlatinumShineInverse5: UIColor? { gray60 }
-    public var backgroundPlatinumShineInverse10: UIColor? { gray95 }
-    public var backgroundPlatinumSubtle0: UIColor? { gray95 }
-    public var backgroundPlatinumSubtle1: UIColor? { gray90 }
+    public var backgroundGoldSubtle0: UIColor? { white }
+    public var backgroundGoldSubtle1: UIColor? { gold15 }
+    public var backgroundPlatinum0: UIColor? { gray95 }
+    public var backgroundPlatinum1: UIColor? { gray60 }
+    public var backgroundPlatinumInverse0: UIColor? { gray30 }
+    public var backgroundPlatinumInverse1: UIColor? { gray10 }
+    public var backgroundPlatinumShine0: UIColor? { gray95 }
+    public var backgroundPlatinumShine5: UIColor? { gray60 }
+    public var backgroundPlatinumShine10: UIColor? { gray95 }
+    public var backgroundPlatinumShineInverse0: UIColor? { gray30 }
+    public var backgroundPlatinumShineInverse5: UIColor? { gray10 }
+    public var backgroundPlatinumShineInverse10: UIColor? { gray30 }
+    public var backgroundPlatinumSubtle0: UIColor? { white }
+    public var backgroundPlatinumSubtle1: UIColor? { gray20 }
     public var backgroundScriptedOnboarding0: UIColor? { blue30 }
     public var backgroundScriptedOnboarding1: UIColor? { fuchsia30 }
     public var backgroundSwipesurge0: UIColor? { green20 }
     public var backgroundSwipesurge1: UIColor? { teal20 }
     public var backgroundReadReceiptsBadge: UIColor? { blue50 }
-    public var backgroundGreen: UIColor? { green95 }
-    public var backgroundTeal: UIColor? { teal95 }
-    public var backgroundTealSubtle0: UIColor? { gray95 }
-    public var backgroundTealSubtle1: UIColor? { teal90 }
-    public var backgroundBlue: UIColor? { blue95 }
-    public var backgroundPurple: UIColor? { purple95 }
-    public var backgroundFuchsia: UIColor? { fuchsia95 }
-    public var backgroundRed: UIColor? { red95 }
-    public var backgroundYellowOrange: UIColor? { yellowOrange95 }
+    public var backgroundGreen: UIColor? { green05 }
+    public var backgroundTeal: UIColor? { teal05 }
+    public var backgroundTealSubtle0: UIColor? { white }
+    public var backgroundTealSubtle1: UIColor? { teal10 }
+    public var backgroundBlue: UIColor? { blue05 }
+    public var backgroundPurple: UIColor? { purple05 }
+    public var backgroundFuchsia: UIColor? { fuchsia05 }
+    public var backgroundRed: UIColor? { red05 }
+    public var backgroundYellowOrange: UIColor? { yellowOrange05 }
     public var backgroundVault: UIColor? { vaultPrimary }
     public var backgroundVaultGradient0: UIColor? { purple60 }
     public var backgroundVaultGradient5: UIColor? { vaultPrimary }
     public var backgroundVaultGradient10: UIColor? { blue60 }
-    public var backgroundVaultSubtle0: UIColor? { gray95 }
-    public var backgroundVaultSubtle1: UIColor? { vaultIndigo95 }
-    public var backgroundSelectSubtle0: UIColor? { gray95 }
-    public var backgroundSelectSubtle1: UIColor? { vaultIndigo95 }
+    public var backgroundVaultSubtle0: UIColor? { white }
+    public var backgroundVaultSubtle1: UIColor? { vaultIndigo20 }
+    public var backgroundSelectSubtle0: UIColor? { white }
+    public var backgroundSelectSubtle1: UIColor? { vaultIndigo20 }
     public var backgroundMatchExpiration0: UIColor? { matchExpirationPrimary }
     public var backgroundMatchExpiration1: UIColor? { matchExpirationSecondary }
     public var backgroundExploreAttribution0: UIColor? { brandPrimaryA11y }
@@ -1420,16 +1419,16 @@ public struct StandardDark: StyleManagerProtocol {
     public var backgroundHotTakes1: UIColor? { fuchsia60 }
     public var backgroundSpotifyMusicMode0: UIColor? { green90 }
     public var backgroundSpotifyMusicMode1: UIColor? { green70 }
-    public var backgroundCardDefault: UIColor? { gray90 }
-    public var backgroundCardSparks: UIColor? { gray95 }
-    public var backgroundMenuDefault: UIColor? { gray90 }
-    public var backgroundHeaderSparks: UIColor? { gray90 }
-    public var backgroundRippleDefault: UIColor? { gray80 }
-    public var backgroundSparksPrimary0: UIColor? { black }
-    public var backgroundSparksPrimary1: UIColor? { black }
-    public var backgroundSparksProfile: UIColor? { black }
-    public var backgroundSparksTopNav: UIColor? { black }
-    public var backgroundSparksBottomNav: UIColor? { black }
+    public var backgroundCardDefault: UIColor? { white }
+    public var backgroundCardSparks: UIColor? { white }
+    public var backgroundMenuDefault: UIColor? { white }
+    public var backgroundHeaderSparks: UIColor? { white }
+    public var backgroundRippleDefault: UIColor? { gray20 }
+    public var backgroundSparksPrimary0: UIColor? { sparksGrayBlue15 }
+    public var backgroundSparksPrimary1: UIColor? { white }
+    public var backgroundSparksProfile: UIColor? { sparksGrayBlue30 }
+    public var backgroundSparksTopNav: UIColor? { white }
+    public var backgroundSparksBottomNav: UIColor? { sparksGrayBlue15 }
     public var backgroundSparksLike0: UIColor? { sparksGreen40 }
     public var backgroundSparksLike1: UIColor? { sparksYellow20 }
     public var backgroundSparksNope0: UIColor? { red50 }
@@ -1440,15 +1439,15 @@ public struct StandardDark: StyleManagerProtocol {
     public var backgroundSparksBoost1: UIColor? { fuchsia40 }
     public var backgroundSparksRewind0: UIColor? { yellowOrange30 }
     public var backgroundSparksRewind1: UIColor? { sparksYellow30 }
-    public var backgroundSparksPrompt: UIColor? { sparksGrayBlue90 }
-    public var backgroundTrust: UIColor? { blue95 }
+    public var backgroundSparksPrompt: UIColor? { sparksGrayBlue15 }
+    public var backgroundTrust: UIColor? { blue10 }
     public var borderBrandGradient0: UIColor? { brandGradientStart }
     public var borderBrandGradient1: UIColor? { brandGradientEnd }
     public var borderVaultGradient0: UIColor? { purple60 }
     public var borderVaultGradient5: UIColor? { vaultPrimary }
     public var borderVaultGradient10: UIColor? { blue60 }
-    public var borderMatchExpiration0: UIColor? { matchExpirationPrimaryOnDark }
-    public var borderMatchExpiration1: UIColor? { fuchsia50 }
+    public var borderMatchExpiration0: UIColor? { matchExpirationPrimary }
+    public var borderMatchExpiration1: UIColor? { matchExpirationSecondary }
     public var borderSparksLike: UIColor? { sparksGreen40 }
     public var borderSparksNope: UIColor? { sparksRed60 }
     public var borderSparksSuperLike: UIColor? { sparksBlue50 }
@@ -1456,51 +1455,51 @@ public struct StandardDark: StyleManagerProtocol {
     public var borderSparksRewind: UIColor? { sparksOrange50 }
     public var borderSparksPromptSelected0: UIColor? { brandGradientEnd }
     public var borderSparksPromptSelected1: UIColor? { fuchsia50 }
-    public var foregroundPrimary: UIColor? { gray10 }
-    public var foregroundPrimaryInverse: UIColor? { gray90 }
-    public var foregroundSecondary: UIColor? { gray30 }
-    public var foregroundSecondaryInverse: UIColor? { gray60 }
-    public var foregroundInactive: UIColor? { gray50 }
-    public var foregroundDisabled: UIColor? { gray70 }
+    public var foregroundPrimary: UIColor? { gray90 }
+    public var foregroundPrimaryInverse: UIColor? { gray05 }
+    public var foregroundSecondary: UIColor? { gray70 }
+    public var foregroundSecondaryInverse: UIColor? { gray40 }
+    public var foregroundInactive: UIColor? { gray60 }
+    public var foregroundDisabled: UIColor? { gray30 }
     public var foregroundPrimaryStaticLight: UIColor? { white }
     public var foregroundPrimaryStaticDark: UIColor? { gray90 }
     public var foregroundSecondaryStaticLight: UIColor? { gray30 }
     public var foregroundSecondaryStaticDark: UIColor? { gray70 }
-    public var foregroundBorderPrimary: UIColor? { gray70 }
-    public var foregroundBorderSecondary: UIColor? { gray80 }
-    public var iconPrimary: UIColor? { gray10 }
+    public var foregroundBorderPrimary: UIColor? { gray30 }
+    public var foregroundBorderSecondary: UIColor? { gray15 }
+    public var iconPrimary: UIColor? { gray90 }
     public var iconSecondary: UIColor? { gray50 }
-    public var iconPrimaryInverse: UIColor? { gray90 }
-    public var iconSecondaryInverse: UIColor? { gray40 }
-    public var iconDisabled: UIColor? { gray80 }
+    public var iconPrimaryInverse: UIColor? { gray05 }
+    public var iconSecondaryInverse: UIColor? { gray60 }
+    public var iconDisabled: UIColor? { gray30 }
     public var iconPrimaryOverlay: UIColor? { white }
     public var iconPrimaryOverlayInverse: UIColor? { gray90 }
     public var iconBrand: UIColor? { brandPrimary }
     public var iconBrandGradient0: UIColor? { brandGradientStart }
     public var iconBrandGradient1: UIColor? { brandGradientEnd }
-    public var iconTrust: UIColor? { blue50 }
-    public var iconSuccess: UIColor? { green60 }
+    public var iconTrust: UIColor? { blue60 }
+    public var iconSuccess: UIColor? { green50 }
     public var iconError: UIColor? { red60 }
-    public var iconLike0: UIColor? { green20 }
-    public var iconLike1: UIColor? { teal15 }
-    public var iconNope0: UIColor? { red50 }
-    public var iconNope1: UIColor? { fuchsia50 }
+    public var iconLike0: UIColor? { green50 }
+    public var iconLike1: UIColor? { teal50 }
+    public var iconNope0: UIColor? { brandGradientStart }
+    public var iconNope1: UIColor? { brandGradientEnd }
     public var iconSuperlike0: UIColor? { blue50 }
-    public var iconSuperlike1: UIColor? { teal15 }
+    public var iconSuperlike1: UIColor? { teal50 }
     public var iconBoost0: UIColor? { purple60 }
-    public var iconBoost1: UIColor? { fuchsia50 }
-    public var iconRewind0: UIColor? { yellowOrange40 }
+    public var iconBoost1: UIColor? { purple40 }
+    public var iconRewind0: UIColor? { yellowOrange30 }
     public var iconRewind1: UIColor? { yellowOrange15 }
     public var iconGold0: UIColor? { gold30 }
-    public var iconGold1: UIColor? { gold15 }
-    public var iconPlatinum0: UIColor? { gray30 }
-    public var iconPlatinum1: UIColor? { gray10 }
+    public var iconGold1: UIColor? { gold20 }
+    public var iconPlatinum0: UIColor? { gray95 }
+    public var iconPlatinum1: UIColor? { gray60 }
     public var iconChatHeartActive: UIColor? { brandPrimary }
-    public var iconChatDrawerContactCardActive: UIColor? { blue60 }
-    public var iconChatDrawerGifForegroundDefault: UIColor? { black }
-    public var iconChatDrawerGifForegroundActive: UIColor? { yellowOrange50 }
-    public var iconChatDrawerStickerActive: UIColor? { purple50 }
-    public var iconChatDrawerSpotifyForegroundDefault: UIColor? { black }
+    public var iconChatDrawerContactCardActive: UIColor? { blue50 }
+    public var iconChatDrawerGifForegroundDefault: UIColor? { white }
+    public var iconChatDrawerGifForegroundActive: UIColor? { yellowOrange15 }
+    public var iconChatDrawerStickerActive: UIColor? { purple60 }
+    public var iconChatDrawerSpotifyForegroundDefault: UIColor? { white }
     public var iconChatDrawerSpotifyForegroundActive: UIColor? { thirdPartySpotifyPrimaryInverse }
     public var iconChatDrawerSpotifyBackgroundActive: UIColor? { thirdPartySpotifyPrimary }
     public var iconChatDrawerNoonlightForegroundActive: UIColor? { thirdPartyNoonlightPrimary }
@@ -1526,24 +1525,24 @@ public struct StandardDark: StyleManagerProtocol {
     public var iconSparksRewind1: UIColor? { sparksYellow30 }
     public var iconSparksMatchmakerAttribution0: UIColor? { sparksGreen30 }
     public var iconSparksMatchmakerAttribution1: UIColor? { sparksGreen20 }
-    public var interactivePrimary: UIColor? { gray10?.withAlphaComponent(0.1608) }
-    public var interactiveSecondary: UIColor? { gray10?.withAlphaComponent(0.0784) }
-    public var interactiveOnLight: UIColor? { gray95?.withAlphaComponent(0.1608) }
-    public var loaderShimmerBaseDefault: UIColor? { gray90 }
-    public var loaderShimmerHighlightDefault: UIColor? { gray80 }
-    public var overlayDefault: UIColor? { black?.withAlphaComponent(0.7804) }
+    public var interactivePrimary: UIColor? { gray95?.withAlphaComponent(0.1608) }
+    public var interactiveSecondary: UIColor? { gray95?.withAlphaComponent(0.0784) }
+    public var interactiveOnLight: UIColor? { gray10?.withAlphaComponent(0.1608) }
+    public var loaderShimmerBaseDefault: UIColor? { gray20 }
+    public var loaderShimmerHighlightDefault: UIColor? { white }
+    public var overlayDefault: UIColor? { black?.withAlphaComponent(0.5608) }
     public var overlayPrimaryGradient0: UIColor? { black?.withAlphaComponent(0) }
     public var overlayPrimaryGradient1: UIColor? { black }
     public var overlaySecondaryGradient0: UIColor? { black?.withAlphaComponent(0) }
     public var overlaySecondaryGradient1: UIColor? { black?.withAlphaComponent(0.5608) }
-    public var overlayProfileButtonGamepad0: UIColor? { gray95?.withAlphaComponent(0) }
-    public var overlayProfileButtonGamepad1: UIColor? { black }
-    public var overlayProfileSparksSuperLike0: UIColor? { blue60?.withAlphaComponent(0) }
-    public var overlayProfileSparksSuperLike25: UIColor? { blue60?.withAlphaComponent(0.3098) }
-    public var overlayProfileSparksSuperLike50: UIColor? { blue60?.withAlphaComponent(0.702) }
-    public var overlayProfileSparksSuperLike75: UIColor? { blue60 }
-    public var overlayProfileSparksSuperLike100: UIColor? { blue60 }
-    public var shadowContainerElevated: UIColor? { transparent }
+    public var overlayProfileButtonGamepad0: UIColor? { white?.withAlphaComponent(0) }
+    public var overlayProfileButtonGamepad1: UIColor? { gray15 }
+    public var overlayProfileSparksSuperLike0: UIColor? { sparksBlue50?.withAlphaComponent(0) }
+    public var overlayProfileSparksSuperLike25: UIColor? { sparksBlue50?.withAlphaComponent(0.3098) }
+    public var overlayProfileSparksSuperLike50: UIColor? { sparksBlue50?.withAlphaComponent(0.702) }
+    public var overlayProfileSparksSuperLike75: UIColor? { sparksBlue50 }
+    public var overlayProfileSparksSuperLike100: UIColor? { sparksBlue50 }
+    public var shadowContainerElevated: UIColor? { black?.withAlphaComponent(0.2196) }
     public var shimmerGold0: UIColor? { gold20 }
     public var shimmerGold125: UIColor? { gold20 }
     public var shimmerGold250: UIColor? { gold30 }
@@ -1553,40 +1552,41 @@ public struct StandardDark: StyleManagerProtocol {
     public var shimmerGold750: UIColor? { gold30 }
     public var shimmerGold875: UIColor? { gold20 }
     public var shimmerGold1000: UIColor? { gold20 }
-    public var shimmerPlatinum0: UIColor? { gray20 }
-    public var shimmerPlatinum125: UIColor? { gray20 }
-    public var shimmerPlatinum250: UIColor? { gray30 }
-    public var shimmerPlatinum375: UIColor? { gray20 }
-    public var shimmerPlatinum500: UIColor? { gray15 }
-    public var shimmerPlatinum625: UIColor? { gray20 }
-    public var shimmerPlatinum750: UIColor? { gray30 }
-    public var shimmerPlatinum875: UIColor? { gray20 }
-    public var shimmerPlatinum1000: UIColor? { gray20 }
-    public var textMatchExpiration0: UIColor? { matchExpirationPrimaryOnDark }
-    public var textMatchExpiration1: UIColor? { fuchsia50 }
+    public var shimmerPlatinum0: UIColor? { gray90 }
+    public var shimmerPlatinum125: UIColor? { gray90 }
+    public var shimmerPlatinum250: UIColor? { gray95 }
+    public var shimmerPlatinum375: UIColor? { gray90 }
+    public var shimmerPlatinum500: UIColor? { gray80 }
+    public var shimmerPlatinum625: UIColor? { gray90 }
+    public var shimmerPlatinum750: UIColor? { gray95 }
+    public var shimmerPlatinum875: UIColor? { gray90 }
+    public var shimmerPlatinum1000: UIColor? { gray90 }
+    public var textMatchExpiration0: UIColor? { matchExpirationPrimary }
+    public var textMatchExpiration1: UIColor? { matchExpirationSecondary }
     public var textSparksMatchmakerAttribution0: UIColor? { sparksGreen30 }
     public var textSparksMatchmakerAttribution1: UIColor? { sparksGreen20 }
     public var actionActive: UIColor? { accentActive }
     public var actionInactive: UIColor? { foregroundInactive }
     public var backgroundPrimaryLinear0: UIColor? { backgroundPrimary }
     public var backgroundPrimaryLinear1: UIColor? { backgroundSecondary }
+    public var backgroundDisabled: UIColor? { backgroundTertiary }
     public var borderPrimary: UIColor? { foregroundBorderPrimary }
     public var borderPrimaryInverse: UIColor? { foregroundPrimaryInverse }
     public var borderSecondary: UIColor? { foregroundBorderSecondary }
     public var borderSecondaryOverlay: UIColor? { foregroundSecondaryStaticLight }
     public var borderDisabled: UIColor? { foregroundDisabled }
     public var borderOverlay: UIColor? { foregroundPrimaryStaticLight }
-    public var borderFocusDefault: UIColor? { foregroundPrimary }
-    public var borderFocusOverlay: UIColor? { foregroundPrimaryStaticLight }
-    public var borderFocusInverse: UIColor? { foregroundPrimaryInverse }
     public var borderBrand: UIColor? { accentPrimary }
     public var borderGold: UIColor? { accentGold }
     public var borderPlatinum: UIColor? { accentPlatinum }
     public var borderRewind: UIColor? { accentRewind }
     public var borderLike: UIColor? { accentLike }
     public var borderSuperLike: UIColor? { accentSuperLike }
-    public var borderNope: UIColor? { accentNope }
     public var borderBoost: UIColor? { accentBoost }
+    public var borderNope: UIColor? { accentNope }
+    public var borderFocusDefault: UIColor? { foregroundPrimary }
+    public var borderFocusOverlay: UIColor? { foregroundPrimaryStaticLight }
+    public var borderFocusInverse: UIColor? { foregroundPrimaryInverse }
     public var borderError: UIColor? { accentError }
     public var borderSuccess: UIColor? { accentSuccess }
     public var borderActive: UIColor? { accentActive }
@@ -1594,12 +1594,12 @@ public struct StandardDark: StyleManagerProtocol {
     public var borderTimerExpired: UIColor? { foregroundBorderSecondary }
     public var cursorDefault: UIColor? { accentActive }
     public var deviceHomeIndicator: UIColor? { foregroundPrimary }
-    public var deviceStatusBarInverse: UIColor? { foregroundPrimaryInverse }
     public var deviceStatusBar: UIColor? { foregroundPrimary }
+    public var deviceStatusBarInverse: UIColor? { foregroundPrimaryInverse }
     public var dividerPrimary: UIColor? { foregroundBorderPrimary }
     public var dividerSparks: UIColor? { foregroundBorderSecondary }
     public var foregroundPrimaryStaticOnDark: UIColor? { foregroundPrimaryStaticLight }
-    public var foregroundBorderElevated: UIColor? { foregroundBorderPrimary }
+    public var foregroundBorderElevated: UIColor? { foregroundBorderPrimary?.withAlphaComponent(0) }
     public var foregroundReadReceiptsBadge: UIColor? { foregroundPrimaryStaticLight }
     public var foregroundGreen: UIColor? { accentGreen }
     public var foregroundTeal: UIColor? { accentTeal }
