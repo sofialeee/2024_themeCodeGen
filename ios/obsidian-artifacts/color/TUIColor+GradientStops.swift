@@ -1,9 +1,9 @@
 // swiftlint:disable all
 /**
  * © 2013 - 2024 Tinder, Inc., ALL RIGHTS RESERVED
- * Tinder Obsidian v10.11.1-ios.4
+ * Tinder Obsidian v10.14.0
  * Do not edit directly
- * Generated on Thu, 05 Sep 2024 16:14:02 GMT
+ * Generated on Tue, 24 Sep 2024 20:08:06 GMT
  */
 
 import UIKit
@@ -941,16 +941,18 @@ public extension TUIColor {
 
         /// Component/Icon/Gamepad/Primary-Boost/Default__1
         public static let iconGamepadPrimaryBoostDefault1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.purple40,
-            dark:TUIColor.Base.fuchsia50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.purple40,
+                dark:TUIColor.Base.fuchsia50
+            )
+
         /// Component/Icon/Gamepad/Secondary-Rewind/Default__0
         public static let iconGamepadSecondaryRewindDefault0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.yellowOrange30,
-            dark:TUIColor.Base.yellowOrange40
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.yellowOrange30,
+                dark:TUIColor.Base.yellowOrange40
+            )
+
         /// Component/Icon/Gamepad/Secondary-Rewind/Default__1
         public static let iconGamepadSecondaryRewindDefault1: UIColor =
             TUIColor.Base.yellowOrange15
@@ -969,22 +971,25 @@ public extension TUIColor {
 
         /// Component/Icon/Gamepad/Secondary-Super-Like/Default__1
         public static let iconGamepadSecondarySuperLikeDefault1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal50,
-            dark:TUIColor.Base.teal15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal50,
+                dark:TUIColor.Base.teal15
+            )
+
         /// Component/Icon/Gamepad/Secondary-Like/Default__0
         public static let iconGamepadSecondaryLikeDefault0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.green50,
-            dark:TUIColor.Base.green20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.green50,
+                dark:TUIColor.Base.green20
+            )
+
         /// Component/Icon/Gamepad/Secondary-Like/Default__1
         public static let iconGamepadSecondaryLikeDefault1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal50,
-            dark:TUIColor.Base.teal15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal50,
+                dark:TUIColor.Base.teal15
+            )
+
         /// Component/Icon/Gamepad/Secondary-Boost/Default__0
         public static let iconGamepadSecondaryBoostDefault0: UIColor =
             TUIColor.Base.purple60
@@ -1305,34 +1310,39 @@ public extension TUIColor {
 
         /// Component/Overlay/Rec-Card/Sparks-Super-Like__0
         public static let overlayRecCardSparksSuperLike0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksBlue50.withAlphaComponent(0),
-            dark:TUIColor.Base.blue60.withAlphaComponent(0)
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksBlue50.withAlphaComponent(0),
+                dark:TUIColor.Base.blue60.withAlphaComponent(0)
+            )
+
         /// Component/Overlay/Rec-Card/Sparks-Super-Like__1
         public static let overlayRecCardSparksSuperLike25: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksBlue50.withAlphaComponent(0.3098),
-            dark:TUIColor.Base.blue60.withAlphaComponent(0.3098)
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksBlue50.withAlphaComponent(0.3098),
+                dark:TUIColor.Base.blue60.withAlphaComponent(0.3098)
+            )
+
         /// Component/Overlay/Rec-Card/Sparks-Super-Like__2
         public static let overlayRecCardSparksSuperLike50: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksBlue50.withAlphaComponent(0.702),
-            dark:TUIColor.Base.blue60.withAlphaComponent(0.702)
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksBlue50.withAlphaComponent(0.702),
+                dark:TUIColor.Base.blue60.withAlphaComponent(0.702)
+            )
+
         /// Component/Overlay/Rec-Card/Sparks-Super-Like__3
         public static let overlayRecCardSparksSuperLike75: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksBlue50,
-            dark:TUIColor.Base.blue60
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksBlue50,
+                dark:TUIColor.Base.blue60
+            )
+
         /// Component/Overlay/Rec-Card/Sparks-Super-Like__4
         public static let overlayRecCardSparksSuperLike100: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksBlue50,
-            dark:TUIColor.Base.blue60
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksBlue50,
+                dark:TUIColor.Base.blue60
+            )
+
     }
 
     enum GradientStopSemantic {
@@ -1359,17 +1369,19 @@ public extension TUIColor {
         /// Semantic/Accent/Like-Gradient__0
         /// Gradient used for Like related features across elements.
         public static let accentLikeGradient0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.green50,
-            dark:TUIColor.Base.green20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.green50,
+                dark:TUIColor.Base.green20
+            )
+
         /// Semantic/Accent/Like-Gradient__1
         /// Gradient used for Like related features across elements.
         public static let accentLikeGradient1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal50,
-            dark:TUIColor.Base.teal15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal50,
+                dark:TUIColor.Base.teal15
+            )
+
         /// Semantic/Accent/Sparks-Like-Gradient__0
         /// Vivid gradient variant used for Like feature across elements.
         public static let accentSparksLikeGradient0: UIColor =
@@ -1383,17 +1395,19 @@ public extension TUIColor {
         /// Semantic/Accent/Nope-Gradient__0
         /// Gradient used for Nope feature across elements.
         public static let accentNopeGradient0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.brandGradientStart,
-            dark:TUIColor.Base.red50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.brandGradientStart,
+                dark:TUIColor.Base.red50
+            )
+
         /// Semantic/Accent/Nope-Gradient__1
         /// Gradient used for Nope feature across elements.
         public static let accentNopeGradient1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.brandGradientEnd,
-            dark:TUIColor.Base.fuchsia50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.brandGradientEnd,
+                dark:TUIColor.Base.fuchsia50
+            )
+
         /// Semantic/Accent/Sparks-Nope-Gradient__0
         /// Vivid gradient variant used for Nope feature across elements.
         public static let accentSparksNopeGradient0: UIColor =
@@ -1412,10 +1426,11 @@ public extension TUIColor {
         /// Semantic/Accent/Super-Like-Gradient__1
         /// Gradient used for Super Like feature across elements.
         public static let accentSuperLikeGradient1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal50,
-            dark:TUIColor.Base.teal15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal50,
+                dark:TUIColor.Base.teal15
+            )
+
         /// Semantic/Accent/Sparks-Super-Like-Gradient__0
         /// Vivid gradient variant used for Super Like feature across elements.
         public static let accentSparksSuperLikeGradient0: UIColor =
@@ -1434,10 +1449,11 @@ public extension TUIColor {
         /// Semantic/Accent/Boost-Gradient__1
         /// Gradient used for Boost feature across elements.
         public static let accentBoostGradient1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.purple40,
-            dark:TUIColor.Base.fuchsia50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.purple40,
+                dark:TUIColor.Base.fuchsia50
+            )
+
         /// Semantic/Accent/Sparks-Boost-Gradient__0
         /// Vivid gradient variant used for Boost feature across elements.
         public static let accentSparksBoostGradient0: UIColor =
@@ -1451,10 +1467,11 @@ public extension TUIColor {
         /// Semantic/Accent/Rewind-Gradient__0
         /// Gradient used for Rewind feature across elements.
         public static let accentRewindGradient0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.yellowOrange30,
-            dark:TUIColor.Base.yellowOrange40
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.yellowOrange30,
+                dark:TUIColor.Base.yellowOrange40
+            )
+
         /// Semantic/Accent/Rewind-Gradient__1
         /// Gradient used for Rewind feature across elements.
         public static let accentRewindGradient1: UIColor =
@@ -1478,10 +1495,11 @@ public extension TUIColor {
         /// Semantic/Accent/Gold-Gradient__1
         /// Gradient used for Gold revenue tier across elements.
         public static let accentGoldGradient1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gold20,
-            dark:TUIColor.Base.gold15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gold20,
+                dark:TUIColor.Base.gold15
+            )
+
         /// Semantic/Accent/Gold-Shine-Gradient__0
         /// Shine gradient variant used for Gold revenue tier across elements.
         public static let accentGoldShineGradient0: UIColor =
@@ -1500,73 +1518,83 @@ public extension TUIColor {
         /// Semantic/Accent/Platinum-Gradient__0
         /// Gradient used for Platinum revenue tier across elements.
         public static let accentPlatinumGradient0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray95,
-            dark:TUIColor.Base.gray30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray95,
+                dark:TUIColor.Base.gray30
+            )
+
         /// Semantic/Accent/Platinum-Gradient__1
         /// Gradient used for Platinum revenue tier across elements.
         public static let accentPlatinumGradient1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray60,
-            dark:TUIColor.Base.gray10
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray60,
+                dark:TUIColor.Base.gray10
+            )
+
         /// Semantic/Accent/Platinum-Shine-Gradient__0
         /// Shine gradient variant used for Platinum revenue tier across elements.
         public static let accentPlatinumShineGradient0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray95,
-            dark:TUIColor.Base.gray30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray95,
+                dark:TUIColor.Base.gray30
+            )
+
         /// Semantic/Accent/Platinum-Shine-Gradient__1
         /// Shine gradient variant used for Platinum revenue tier across elements.
         public static let accentPlatinumShineGradient5: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray60,
-            dark:TUIColor.Base.gray10
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray60,
+                dark:TUIColor.Base.gray10
+            )
+
         /// Semantic/Accent/Platinum-Shine-Gradient__2
         /// Shine gradient variant used for Platinum revenue tier across elements.
         public static let accentPlatinumShineGradient10: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray95,
-            dark:TUIColor.Base.gray30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray95,
+                dark:TUIColor.Base.gray30
+            )
+
         /// Semantic/Accent/Platinum-Gradient-Inverse__0
         /// Inverse gradient used for Platinum revenue tier across elements.
         public static let accentPlatinumGradientInverse0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray30,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray30,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Accent/Platinum-Gradient-Inverse__1
         /// Inverse gradient used for Platinum revenue tier across elements.
         public static let accentPlatinumGradientInverse1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray10,
-            dark:TUIColor.Base.gray60
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray10,
+                dark:TUIColor.Base.gray60
+            )
+
         /// Semantic/Accent/Platinum-Shine-Gradient-Inverse__0
         /// Inverse shine gradient variant used for Platinum revenue tier across elements.
         public static let accentPlatinumShineGradientInverse0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray30,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray30,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Accent/Platinum-Shine-Gradient-Inverse__1
         /// Inverse shine gradient variant used for Platinum revenue tier across elements.
         public static let accentPlatinumShineGradientInverse5: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray10,
-            dark:TUIColor.Base.gray60
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray10,
+                dark:TUIColor.Base.gray60
+            )
+
         /// Semantic/Accent/Platinum-Shine-Gradient-Inverse__2
         /// Inverse shine gradient variant used for Platinum revenue tier across elements.
         public static let accentPlatinumShineGradientInverse10: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray30,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray30,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Accent/Select-Gradient__0
         /// Gradient used for Select revenue tier across elements.
         public static let accentSelectGradient0: UIColor =
@@ -1625,17 +1653,19 @@ public extension TUIColor {
         /// Semantic/Accent/Match-Expiration-Gradient__0
         /// Gradient used for Match Expiration feature across elements.
         public static let accentMatchExpirationGradient0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.matchExpirationPrimary,
-            dark:TUIColor.Base.matchExpirationPrimaryOnDark
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.matchExpirationPrimary,
+                dark:TUIColor.Base.matchExpirationPrimaryOnDark
+            )
+
         /// Semantic/Accent/Match-Expiration-Gradient__1
         /// Gradient used for Match Expiration feature across elements.
         public static let accentMatchExpirationGradient1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.matchExpirationSecondary,
-            dark:TUIColor.Base.fuchsia50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.matchExpirationSecondary,
+                dark:TUIColor.Base.fuchsia50
+            )
+
         /// Semantic/Accent/Passions-Gradient__0
         /// Gradient used for Passions feature across elements.
         public static let accentPassionsGradient0: UIColor =
@@ -1684,24 +1714,27 @@ public extension TUIColor {
         /// Semantic/Background/Brand-Subtle__0
         /// Used when we want to use Tinder's subtle brand gradient as a background.
         public static let backgroundBrandSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Brand-Subtle__1
         /// Used when we want to use Tinder's subtle brand gradient as a background.
         public static let backgroundBrandSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.red20,
-            dark:TUIColor.Base.red95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.red20,
+                dark:TUIColor.Base.red95
+            )
+
         /// Semantic/Background/Rewind__0
         /// Used as our Gamepad Rewind primary color.
         public static let backgroundRewind0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.yellowOrange30,
-            dark:TUIColor.Base.yellowOrange40
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.yellowOrange30,
+                dark:TUIColor.Base.yellowOrange40
+            )
+
         /// Semantic/Background/Rewind__1
         /// Used as our Gamepad Rewind primary color.
         public static let backgroundRewind1: UIColor =
@@ -1710,10 +1743,11 @@ public extension TUIColor {
         /// Semantic/Background/Rewind-Inverse__0
         /// An inverted version of our Gamepad Rewind primary color.
         public static let backgroundRewindInverse0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.yellowOrange40,
-            dark:TUIColor.Base.yellowOrange30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.yellowOrange40,
+                dark:TUIColor.Base.yellowOrange30
+            )
+
         /// Semantic/Background/Rewind-Inverse__1
         /// An inverted version of our Gamepad Rewind primary color.
         public static let backgroundRewindInverse1: UIColor =
@@ -1722,115 +1756,131 @@ public extension TUIColor {
         /// Semantic/Background/Nope__0
         /// Used as our Gamepad Nope primary color.
         public static let backgroundNope0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.brandGradientStart,
-            dark:TUIColor.Base.red50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.brandGradientStart,
+                dark:TUIColor.Base.red50
+            )
+
         /// Semantic/Background/Nope__1
         /// Used as our Gamepad Nope primary color.
         public static let backgroundNope1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.brandGradientEnd,
-            dark:TUIColor.Base.fuchsia50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.brandGradientEnd,
+                dark:TUIColor.Base.fuchsia50
+            )
+
         /// Semantic/Background/Nope-Inverse__0
         /// An inverted version of our Gamepad Nope primary color.
         public static let backgroundNopeInverse0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.red50,
-            dark:TUIColor.Base.brandGradientStart
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.red50,
+                dark:TUIColor.Base.brandGradientStart
+            )
+
         /// Semantic/Background/Nope-Inverse__1
         /// An inverted version of our Gamepad Nope primary color.
         public static let backgroundNopeInverse1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.fuchsia50,
-            dark:TUIColor.Base.brandGradientEnd
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.fuchsia50,
+                dark:TUIColor.Base.brandGradientEnd
+            )
+
         /// Semantic/Background/Super-Like__0
         /// Used as our Gamepad Super Like primary color.
         public static let backgroundSuperLike0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.blue40,
-            dark:TUIColor.Base.blue50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.blue40,
+                dark:TUIColor.Base.blue50
+            )
+
         /// Semantic/Background/Super-Like__1
         /// Used as our Gamepad Super Like primary color.
         public static let backgroundSuperLike1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal20,
-            dark:TUIColor.Base.teal15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal20,
+                dark:TUIColor.Base.teal15
+            )
+
         /// Semantic/Background/Super-Like-Inverse__0
         /// An inverted version of our Gamepad Super Like primary color.
         public static let backgroundSuperLikeInverse0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.blue50,
-            dark:TUIColor.Base.blue40
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.blue50,
+                dark:TUIColor.Base.blue40
+            )
+
         /// Semantic/Background/Super-Like-Inverse__1
         /// An inverted version of our Gamepad Super Like primary color.
         public static let backgroundSuperLikeInverse1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal15,
-            dark:TUIColor.Base.teal20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal15,
+                dark:TUIColor.Base.teal20
+            )
+
         /// Semantic/Background/Super-Like-Subtle__0
         /// Used as a subtle background gradient for Super Like experiences.
         public static let backgroundSuperLikeSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Super-Like-Subtle__1
         /// Used as a subtle background gradient for Super Like experiences.
         public static let backgroundSuperLikeSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.blue15,
-            dark:TUIColor.Base.blue90
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.blue15,
+                dark:TUIColor.Base.blue90
+            )
+
         /// Semantic/Background/Like__0
         /// Used as our Gamepad Like primary color.
         public static let backgroundLike0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.green30,
-            dark:TUIColor.Base.green20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.green30,
+                dark:TUIColor.Base.green20
+            )
+
         /// Semantic/Background/Like__1
         /// Used as our Gamepad Like primary color.
         public static let backgroundLike1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal20,
-            dark:TUIColor.Base.teal15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal20,
+                dark:TUIColor.Base.teal15
+            )
+
         /// Semantic/Background/Like-Inverse__0
         /// An inverted version of our Gamepad Like primary color.
         public static let backgroundLikeInverse0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.green20,
-            dark:TUIColor.Base.green30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.green20,
+                dark:TUIColor.Base.green30
+            )
+
         /// Semantic/Background/Like-Inverse__1
         /// An inverted version of our Gamepad Like primary color.
         public static let backgroundLikeInverse1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal15,
-            dark:TUIColor.Base.teal20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal15,
+                dark:TUIColor.Base.teal20
+            )
+
         /// Semantic/Background/Like-Subtle__0
         /// Used as a subtle background gradient for Like experiences.
         public static let backgroundLikeSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Like-Subtle__1
         /// Used as a subtle background gradient for Like experiences.
         public static let backgroundLikeSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.green10,
-            dark:TUIColor.Base.green90
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.green10,
+                dark:TUIColor.Base.green90
+            )
+
         /// Semantic/Background/Boost__0
         /// Used as our Gamepad Boost primary color.
         public static let backgroundBoost0: UIColor =
@@ -1839,10 +1889,11 @@ public extension TUIColor {
         /// Semantic/Background/Boost__1
         /// Used as our Gamepad Boost primary color.
         public static let backgroundBoost1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.purple40,
-            dark:TUIColor.Base.fuchsia50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.purple40,
+                dark:TUIColor.Base.fuchsia50
+            )
+
         /// Semantic/Background/Boost-Inverse__0
         /// An inverted version of our Gamepad Boost primary color.
         public static let backgroundBoostInverse0: UIColor =
@@ -1851,24 +1902,27 @@ public extension TUIColor {
         /// Semantic/Background/Boost-Inverse__1
         /// An inverted version of our Gamepad Boost primary color.
         public static let backgroundBoostInverse1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.fuchsia50,
-            dark:TUIColor.Base.purple40
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.fuchsia50,
+                dark:TUIColor.Base.purple40
+            )
+
         /// Semantic/Background/Boost-Subtle__0
         /// Used as a subtle background gradient for Boost experiences.
         public static let backgroundBoostSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Boost-Subtle__1
         /// Used as a subtle background gradient for Boost experiences.
         public static let backgroundBoostSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.purple15,
-            dark:TUIColor.Base.purple90
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.purple15,
+                dark:TUIColor.Base.purple90
+            )
+
         /// Semantic/Background/Super-Boost__0
         /// Used as our Gamepad Super Boost primary color.
         public static let backgroundSuperBoost0: UIColor =
@@ -1892,31 +1946,35 @@ public extension TUIColor {
         /// Semantic/Background/Super-Boost-Subtle__0
         /// Used as a subtle background gradient for Super Boost experiences.
         public static let backgroundSuperBoostSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Super-Boost-Subtle__1
         /// Used as a subtle background gradient for Super Boost experiences.
         public static let backgroundSuperBoostSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.fuchsia15,
-            dark:TUIColor.Base.fuchsia90
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.fuchsia15,
+                dark:TUIColor.Base.fuchsia90
+            )
+
         /// Semantic/Background/Plus-Subtle__0
         /// Used as a subtle background gradient for Plus experiences.
         public static let backgroundPlusSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Plus-Subtle__1
         /// Used as a subtle background gradient for Plus experiences.
         public static let backgroundPlusSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.red20,
-            dark:TUIColor.Base.red95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.red20,
+                dark:TUIColor.Base.red95
+            )
+
         /// Semantic/Background/Gold__0
         /// Used for UI elements related to Gold Revenue experiences.
         public static let backgroundGold0: UIColor =
@@ -1925,10 +1983,11 @@ public extension TUIColor {
         /// Semantic/Background/Gold__1
         /// Used for UI elements related to Gold Revenue experiences.
         public static let backgroundGold1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gold20,
-            dark:TUIColor.Base.gold15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gold20,
+                dark:TUIColor.Base.gold15
+            )
+
         /// Semantic/Background/Gold-Inverse__0
         /// An inverted version of our Gold primary gradient.
         public static let backgroundGoldInverse0: UIColor =
@@ -1937,10 +1996,11 @@ public extension TUIColor {
         /// Semantic/Background/Gold-Inverse__1
         /// An inverted version of our Gold primary gradient.
         public static let backgroundGoldInverse1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gold15,
-            dark:TUIColor.Base.gold20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gold15,
+                dark:TUIColor.Base.gold20
+            )
+
         /// Semantic/Background/Gold-Shine__0
         /// A shinier version of our Gold primary gradient.
         public static let backgroundGoldShine0: UIColor =
@@ -1974,101 +2034,115 @@ public extension TUIColor {
         /// Semantic/Background/Gold-Subtle__0
         /// Used as a subtle background gradient for Gold Revenue experiences.
         public static let backgroundGoldSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Gold-Subtle__1
         /// Used as a subtle background gradient for Gold Revenue experiences.
         public static let backgroundGoldSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gold15,
-            dark:TUIColor.Base.gold90
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gold15,
+                dark:TUIColor.Base.gold90
+            )
+
         /// Semantic/Background/Platinum__0
         /// Used for UI elements related to Platinum Revenue experiences.
         public static let backgroundPlatinum0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray95,
-            dark:TUIColor.Base.gray30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray95,
+                dark:TUIColor.Base.gray30
+            )
+
         /// Semantic/Background/Platinum__1
         /// Used for UI elements related to Platinum Revenue experiences.
         public static let backgroundPlatinum1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray60,
-            dark:TUIColor.Base.gray10
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray60,
+                dark:TUIColor.Base.gray10
+            )
+
         /// Semantic/Background/Platinum-Inverse__0
         /// An inverted version of our Platinum primary gradient.
         public static let backgroundPlatinumInverse0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray30,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray30,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Platinum-Inverse__1
         /// An inverted version of our Platinum primary gradient.
         public static let backgroundPlatinumInverse1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray10,
-            dark:TUIColor.Base.gray60
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray10,
+                dark:TUIColor.Base.gray60
+            )
+
         /// Semantic/Background/Platinum-Shine__0
         /// A shinier version of our Platinum primary gradient.
         public static let backgroundPlatinumShine0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray95,
-            dark:TUIColor.Base.gray30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray95,
+                dark:TUIColor.Base.gray30
+            )
+
         /// Semantic/Background/Platinum-Shine__1
         /// A shinier version of our Platinum primary gradient.
         public static let backgroundPlatinumShine5: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray60,
-            dark:TUIColor.Base.gray10
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray60,
+                dark:TUIColor.Base.gray10
+            )
+
         /// Semantic/Background/Platinum-Shine__2
         /// A shinier version of our Platinum primary gradient.
         public static let backgroundPlatinumShine10: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray95,
-            dark:TUIColor.Base.gray30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray95,
+                dark:TUIColor.Base.gray30
+            )
+
         /// Semantic/Background/Platinum-Shine-Inverse__0
         /// An inverted version of our Shinier Platinum primary gradient.
         public static let backgroundPlatinumShineInverse0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray30,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray30,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Platinum-Shine-Inverse__1
         /// An inverted version of our Shinier Platinum primary gradient.
         public static let backgroundPlatinumShineInverse5: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray10,
-            dark:TUIColor.Base.gray60
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray10,
+                dark:TUIColor.Base.gray60
+            )
+
         /// Semantic/Background/Platinum-Shine-Inverse__2
         /// An inverted version of our Shinier Platinum primary gradient.
         public static let backgroundPlatinumShineInverse10: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray30,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray30,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Platinum-Subtle__0
         /// Used as a subtle background gradient for Platinum Revenue experiences.
         public static let backgroundPlatinumSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Platinum-Subtle__1
         /// Used as a subtle background gradient for Platinum Revenue experiences.
         public static let backgroundPlatinumSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray20,
-            dark:TUIColor.Base.gray90
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray20,
+                dark:TUIColor.Base.gray90
+            )
+
         /// Semantic/Background/Scripted-Onboarding__0
         public static let backgroundScriptedOnboarding0: UIColor =
             TUIColor.Base.blue30
@@ -2088,17 +2162,19 @@ public extension TUIColor {
         /// Semantic/Background/Teal-Subtle__0
         /// A subtle teal gradient background color.
         public static let backgroundTealSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Teal-Subtle__1
         /// A subtle teal gradient background color.
         public static let backgroundTealSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal10,
-            dark:TUIColor.Base.teal90
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal10,
+                dark:TUIColor.Base.teal90
+            )
+
         /// Semantic/Background/Vault-Gradient__0
         /// A Vault gradient used for theming components like Buttons, Chat bubbles, Tooltips, Banners, and more.
         public static let backgroundVaultGradient0: UIColor =
@@ -2117,31 +2193,35 @@ public extension TUIColor {
         /// Semantic/Background/Vault-Subtle__0
         /// Used as a subtle background gradient for Vault experiences.
         public static let backgroundVaultSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Vault-Subtle__1
         /// Used as a subtle background gradient for Vault experiences.
         public static let backgroundVaultSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.vaultIndigo20,
-            dark:TUIColor.Base.vaultIndigo95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.vaultIndigo20,
+                dark:TUIColor.Base.vaultIndigo95
+            )
+
         /// Semantic/Background/Select-Subtle__0
         /// Subtle gradient as a background gradient for Select experiences.
         public static let backgroundSelectSubtle0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.gray95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.gray95
+            )
+
         /// Semantic/Background/Select-Subtle__1
         /// Subtle gradient as a background gradient for Select experiences.
         public static let backgroundSelectSubtle1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.vaultIndigo20,
-            dark:TUIColor.Base.vaultIndigo95
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.vaultIndigo20,
+                dark:TUIColor.Base.vaultIndigo95
+            )
+
         /// Semantic/Background/Match-Expiration__0
         /// A background gradient used for Match Expiration components like Buttons, Chat bubbles, Tooltips, Banners, and more.
         public static let backgroundMatchExpiration0: UIColor =
@@ -2194,16 +2274,18 @@ public extension TUIColor {
 
         /// Semantic/Background/Sparks-Primary__0
         public static let backgroundSparksPrimary0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksGrayBlue15,
-            dark:TUIColor.Base.black
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksGrayBlue15,
+                dark:TUIColor.Base.black
+            )
+
         /// Semantic/Background/Sparks-Primary__1
         public static let backgroundSparksPrimary1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white,
-            dark:TUIColor.Base.black
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white,
+                dark:TUIColor.Base.black
+            )
+
         /// Semantic/Background/Sparks-Like__0
         public static let backgroundSparksLike0: UIColor =
             TUIColor.Base.sparksGreen40
@@ -2282,19 +2364,21 @@ public extension TUIColor {
         /// Deprecated: DEPRECATED. DO NOT USE. This color token has been consolidated. Please see use replacement semantic color token going forward.
         /// Replacement: Use matchExpirationGradientAccent instead
         public static let borderMatchExpiration0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.matchExpirationPrimary,
-            dark:TUIColor.Base.matchExpirationPrimaryOnDark
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.matchExpirationPrimary,
+                dark:TUIColor.Base.matchExpirationPrimaryOnDark
+            )
+
         /// Semantic/Border/Match-Expiration__1
         /// A gradient used for Match Expiration borders.
         /// Deprecated: DEPRECATED. DO NOT USE. This color token has been consolidated. Please see use replacement semantic color token going forward.
         /// Replacement: Use matchExpirationGradientAccent instead
         public static let borderMatchExpiration1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.matchExpirationSecondary,
-            dark:TUIColor.Base.fuchsia50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.matchExpirationSecondary,
+                dark:TUIColor.Base.fuchsia50
+            )
+
         /// Semantic/Border/Sparks-Prompt/Selected__0
         /// Deprecated: DEPRECATED. DO NOT USE. This color token has been consolidated. Please see use replacement semantic color token going forward.
         /// Replacement: Use passionsGradientAccent instead
@@ -2317,54 +2401,61 @@ public extension TUIColor {
 
         /// Semantic/Icon/Like__0
         public static let iconLike0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.green50,
-            dark:TUIColor.Base.green20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.green50,
+                dark:TUIColor.Base.green20
+            )
+
         /// Semantic/Icon/Like__1
         public static let iconLike1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal50,
-            dark:TUIColor.Base.teal15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal50,
+                dark:TUIColor.Base.teal15
+            )
+
         /// Semantic/Icon/Nope__0
         public static let iconNope0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.brandGradientStart,
-            dark:TUIColor.Base.red50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.brandGradientStart,
+                dark:TUIColor.Base.red50
+            )
+
         /// Semantic/Icon/Nope__1
         public static let iconNope1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.brandGradientEnd,
-            dark:TUIColor.Base.fuchsia50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.brandGradientEnd,
+                dark:TUIColor.Base.fuchsia50
+            )
+
         /// Semantic/Icon/Superlike__0
         public static let iconSuperlike0: UIColor =
             TUIColor.Base.blue50
 
         /// Semantic/Icon/Superlike__1
         public static let iconSuperlike1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.teal50,
-            dark:TUIColor.Base.teal15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.teal50,
+                dark:TUIColor.Base.teal15
+            )
+
         /// Semantic/Icon/Boost__0
         public static let iconBoost0: UIColor =
             TUIColor.Base.purple60
 
         /// Semantic/Icon/Boost__1
         public static let iconBoost1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.purple40,
-            dark:TUIColor.Base.fuchsia50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.purple40,
+                dark:TUIColor.Base.fuchsia50
+            )
+
         /// Semantic/Icon/Rewind__0
         public static let iconRewind0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.yellowOrange30,
-            dark:TUIColor.Base.yellowOrange40
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.yellowOrange30,
+                dark:TUIColor.Base.yellowOrange40
+            )
+
         /// Semantic/Icon/Rewind__1
         public static let iconRewind1: UIColor =
             TUIColor.Base.yellowOrange15
@@ -2375,22 +2466,25 @@ public extension TUIColor {
 
         /// Semantic/Icon/Gold__1
         public static let iconGold1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gold20,
-            dark:TUIColor.Base.gold15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gold20,
+                dark:TUIColor.Base.gold15
+            )
+
         /// Semantic/Icon/Platinum__0
         public static let iconPlatinum0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray95,
-            dark:TUIColor.Base.gray30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray95,
+                dark:TUIColor.Base.gray30
+            )
+
         /// Semantic/Icon/Platinum__1
         public static let iconPlatinum1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray60,
-            dark:TUIColor.Base.gray10
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray60,
+                dark:TUIColor.Base.gray10
+            )
+
         /// Semantic/Icon/Chat-Drawer-Vibes/Active__0
         public static let iconChatDrawerVibesActive0: UIColor =
             TUIColor.Base.yellowOrange30
@@ -2500,46 +2594,53 @@ public extension TUIColor {
 
         /// Semantic/Overlay/Profile/Button-Gamepad__0
         public static let overlayProfileButtonGamepad0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.white.withAlphaComponent(0),
-            dark:TUIColor.Base.gray95.withAlphaComponent(0)
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.white.withAlphaComponent(0),
+                dark:TUIColor.Base.gray95.withAlphaComponent(0)
+            )
+
         /// Semantic/Overlay/Profile/Button-Gamepad__1
         public static let overlayProfileButtonGamepad1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray15,
-            dark:TUIColor.Base.black
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray15,
+                dark:TUIColor.Base.black
+            )
+
         /// Semantic/Overlay/Profile/Sparks-Super-Like__0
         public static let overlayProfileSparksSuperLike0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksBlue50.withAlphaComponent(0),
-            dark:TUIColor.Base.blue60.withAlphaComponent(0)
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksBlue50.withAlphaComponent(0),
+                dark:TUIColor.Base.blue60.withAlphaComponent(0)
+            )
+
         /// Semantic/Overlay/Profile/Sparks-Super-Like__1
         public static let overlayProfileSparksSuperLike25: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksBlue50.withAlphaComponent(0.3098),
-            dark:TUIColor.Base.blue60.withAlphaComponent(0.3098)
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksBlue50.withAlphaComponent(0.3098),
+                dark:TUIColor.Base.blue60.withAlphaComponent(0.3098)
+            )
+
         /// Semantic/Overlay/Profile/Sparks-Super-Like__2
         public static let overlayProfileSparksSuperLike50: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksBlue50.withAlphaComponent(0.702),
-            dark:TUIColor.Base.blue60.withAlphaComponent(0.702)
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksBlue50.withAlphaComponent(0.702),
+                dark:TUIColor.Base.blue60.withAlphaComponent(0.702)
+            )
+
         /// Semantic/Overlay/Profile/Sparks-Super-Like__3
         public static let overlayProfileSparksSuperLike75: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksBlue50,
-            dark:TUIColor.Base.blue60
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksBlue50,
+                dark:TUIColor.Base.blue60
+            )
+
         /// Semantic/Overlay/Profile/Sparks-Super-Like__4
         public static let overlayProfileSparksSuperLike100: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.sparksBlue50,
-            dark:TUIColor.Base.blue60
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.sparksBlue50,
+                dark:TUIColor.Base.blue60
+            )
+
         /// Semantic/Shimmer/Gold__0
         /// A 9 color gradient used for Gold-Shine Animations. Must always have 9 colors.
         public static let shimmerGold0: UIColor =
@@ -2588,84 +2689,95 @@ public extension TUIColor {
         /// Semantic/Shimmer/Platinum__0
         /// A 9 color gradient used for Platinum-Shine Animations. Must always have 9 colors.
         public static let shimmerPlatinum0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray90,
-            dark:TUIColor.Base.gray20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray90,
+                dark:TUIColor.Base.gray20
+            )
+
         /// Semantic/Shimmer/Platinum__1
         /// A 9 color gradient used for Platinum-Shine Animations. Must always have 9 colors.
         public static let shimmerPlatinum125: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray90,
-            dark:TUIColor.Base.gray20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray90,
+                dark:TUIColor.Base.gray20
+            )
+
         /// Semantic/Shimmer/Platinum__2
         /// A 9 color gradient used for Platinum-Shine Animations. Must always have 9 colors.
         public static let shimmerPlatinum250: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray95,
-            dark:TUIColor.Base.gray30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray95,
+                dark:TUIColor.Base.gray30
+            )
+
         /// Semantic/Shimmer/Platinum__3
         /// A 9 color gradient used for Platinum-Shine Animations. Must always have 9 colors.
         public static let shimmerPlatinum375: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray90,
-            dark:TUIColor.Base.gray20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray90,
+                dark:TUIColor.Base.gray20
+            )
+
         /// Semantic/Shimmer/Platinum__4
         /// A 9 color gradient used for Platinum-Shine Animations. Must always have 9 colors.
         public static let shimmerPlatinum500: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray80,
-            dark:TUIColor.Base.gray15
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray80,
+                dark:TUIColor.Base.gray15
+            )
+
         /// Semantic/Shimmer/Platinum__5
         /// A 9 color gradient used for Platinum-Shine Animations. Must always have 9 colors.
         public static let shimmerPlatinum625: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray90,
-            dark:TUIColor.Base.gray20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray90,
+                dark:TUIColor.Base.gray20
+            )
+
         /// Semantic/Shimmer/Platinum__6
         /// A 9 color gradient used for Platinum-Shine Animations. Must always have 9 colors.
         public static let shimmerPlatinum750: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray95,
-            dark:TUIColor.Base.gray30
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray95,
+                dark:TUIColor.Base.gray30
+            )
+
         /// Semantic/Shimmer/Platinum__7
         /// A 9 color gradient used for Platinum-Shine Animations. Must always have 9 colors.
         public static let shimmerPlatinum875: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray90,
-            dark:TUIColor.Base.gray20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray90,
+                dark:TUIColor.Base.gray20
+            )
+
         /// Semantic/Shimmer/Platinum__8
         /// A 9 color gradient used for Platinum-Shine Animations. Must always have 9 colors.
         public static let shimmerPlatinum1000: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.gray90,
-            dark:TUIColor.Base.gray20
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.gray90,
+                dark:TUIColor.Base.gray20
+            )
+
         /// Semantic/Text/Match-Expiration__0
         /// A gradient used for Match Expiration Text.
         /// Deprecated: DEPRECATED. DO NOT USE. This color token has been consolidated. Please see use replacement semantic color token going forward.
         /// Replacement: Use matchExpirationGradientAccent instead
         public static let textMatchExpiration0: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.matchExpirationPrimary,
-            dark:TUIColor.Base.matchExpirationPrimaryOnDark
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.matchExpirationPrimary,
+                dark:TUIColor.Base.matchExpirationPrimaryOnDark
+            )
+
         /// Semantic/Text/Match-Expiration__1
         /// A gradient used for Match Expiration Text.
         /// Deprecated: DEPRECATED. DO NOT USE. This color token has been consolidated. Please see use replacement semantic color token going forward.
         /// Replacement: Use matchExpirationGradientAccent instead
         public static let textMatchExpiration1: UIColor =
-        TUIColor.dynamicColor(
-            light:TUIColor.Base.matchExpirationSecondary,
-            dark:TUIColor.Base.fuchsia50
-        )
+            TUIColor.dynamicColor(
+                light:TUIColor.Base.matchExpirationSecondary,
+                dark:TUIColor.Base.fuchsia50
+            )
+
         /// Semantic/Text/Sparks-Matchmaker-Attribution__0
         /// A text gradient used for Matchmaker-Attribution text.
         /// Deprecated: DEPRECATED. DO NOT USE. This color token has been consolidated. Please see use replacement semantic color token going forward.

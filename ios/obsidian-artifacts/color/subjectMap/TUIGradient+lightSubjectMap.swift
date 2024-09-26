@@ -1,9 +1,9 @@
 // swiftlint:disable all
 /**
  * © 2013 - 2024 Tinder, Inc., ALL RIGHTS RESERVED
- * Tinder Obsidian v10.11.1-ios.4
+ * Tinder Obsidian v10.14.0
  * Do not edit directly
- * Generated on Thu, 05 Sep 2024 16:14:02 GMT
+ * Generated on Tue, 24 Sep 2024 20:08:06 GMT
  */
 
 import Combine

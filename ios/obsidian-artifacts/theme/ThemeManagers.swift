@@ -16,7 +16,6 @@ public struct StandardThemeManager: ThemeManagerProtocol {
 public struct CustomThemeManager: ThemeManagerProtocol {
     public var lightStyle: any StyleManagerProtocol
     public var darkStyle: any StyleManagerProtocol
-
     public init(lightStyle: any StyleManagerProtocol = CustomLight(),
                 darkStyle: any StyleManagerProtocol = CustomDark()) {
         self.lightStyle = lightStyle

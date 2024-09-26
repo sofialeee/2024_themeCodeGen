@@ -1,14 +1,686 @@
 /**
  * © 2013 - 2024 Tinder, Inc., ALL RIGHTS RESERVED
- * Tinder Obsidian v10.11.0
+ * Tinder Obsidian v10.14.0
  * Do not edit directly
- * Generated on Thu, 12 Sep 2024 22:10:43 GMT
+ * Generated on Tue, 24 Sep 2024 20:08:06 GMT
  */
 
 import UIKit
 
 @available(iOS 17.0, *)
 public struct StandardLight: StyleManagerProtocol {
+    // Base
+    public var transparent: UIColor? {
+        UIColor.clear
+    }
+    public var white: UIColor? {
+        .init(white:1.0, alpha: 1.0)
+    }
+    public var black: UIColor? {
+        .init(red: 0, green: 0, blue: 0, alpha: 1.0)
+    }
+    public var gray10: UIColor? {
+        .init(red: 0.9411764705882353, green: 0.9490196078431372, blue: 0.9568627450980393, alpha: 1.0)
+    }
+    public var gray15: UIColor? {
+        .init(red: 0.9137254901960784, green: 0.9215686274509803, blue: 0.9333333333333333, alpha: 1.0)
+    }
+    public var gray20: UIColor? {
+        .init(red: 0.8313725490196079, green: 0.8470588235294118, blue: 0.8705882352941177, alpha: 1.0)
+    }
+    public var gray30: UIColor? {
+        .init(red: 0.7254901960784313, green: 0.7490196078431373, blue: 0.7843137254901961, alpha: 1.0)
+    }
+    public var gray40: UIColor? {
+        .init(red: 0.5764705882352941, green: 0.6078431372549019, blue: 0.6549019607843137, alpha: 1.0)
+    }
+    public var gray50: UIColor? {
+        .init(red: 0.48627450980392156, green: 0.5215686274509804, blue: 0.5686274509803921, alpha: 1.0)
+    }
+    public var gray60: UIColor? {
+        .init(red: 0.396078431372549, green: 0.43137254901960786, blue: 0.4823529411764706, alpha: 1.0)
+    }
+    public var gray70: UIColor? {
+        .init(red: 0.3137254901960784, green: 0.34901960784313724, blue: 0.396078431372549, alpha: 1.0)
+    }
+    public var gray80: UIColor? {
+        .init(red: 0.23529411764705882, green: 0.26666666666666666, blue: 0.30980392156862746, alpha: 1.0)
+    }
+    public var gray90: UIColor? {
+        .init(red: 0.12941176470588237, green: 0.14901960784313725, blue: 0.1803921568627451, alpha: 1.0)
+    }
+    public var gray95: UIColor? {
+        .init(red: 0.06666666666666667, green: 0.0784313725490196, blue: 0.09411764705882353, alpha: 1.0)
+    }
+    public var gray05: UIColor? {
+        .init(red: 0.9725490196078431, green: 0.9725490196078431, blue: 0.9764705882352941, alpha: 1.0)
+    }
+    public var green10: UIColor? {
+        .init(red: 0.7843137254901961, green: 1, blue: 0.8196078431372549, alpha: 1.0)
+    }
+    public var green15: UIColor? {
+        .init(red: 0.48627450980392156, green: 0.9921568627450981, blue: 0.6392156862745098, alpha: 1.0)
+    }
+    public var green20: UIColor? {
+        .init(red: 0.17647058823529413, green: 0.9450980392156862, blue: 0.5294117647058824, alpha: 1.0)
+    }
+    public var green30: UIColor? {
+        .init(red: 0.12941176470588237, green: 0.8156862745098039, blue: 0.48627450980392156, alpha: 1.0)
+    }
+    public var green40: UIColor? {
+        .init(red: 0.09019607843137255, green: 0.6862745098039216, blue: 0.4392156862745098, alpha: 1.0)
+    }
+    public var green50: UIColor? {
+        .init(red: 0.07058823529411765, green: 0.6196078431372549, blue: 0.40784313725490196, alpha: 1.0)
+    }
+    public var green60: UIColor? {
+        .init(red: 0.043137254901960784, green: 0.49019607843137253, blue: 0.34509803921568627, alpha: 1.0)
+    }
+    public var green70: UIColor? {
+        .init(red: 0.0196078431372549, green: 0.3607843137254902, blue: 0.27058823529411763, alpha: 1.0)
+    }
+    public var green80: UIColor? {
+        .init(red: 0.011764705882352941, green: 0.29411764705882354, blue: 0.23137254901960785, alpha: 1.0)
+    }
+    public var green90: UIColor? {
+        .init(red: 0.00392156862745098, green: 0.16470588235294117, blue: 0.13725490196078433, alpha: 1.0)
+    }
+    public var green95: UIColor? {
+        .init(red: 0, green: 0.09803921568627451, blue: 0.08627450980392157, alpha: 1.0)
+    }
+    public var green05: UIColor? {
+        .init(red: 0.8901960784313725, green: 1, blue: 0.9019607843137255, alpha: 1.0)
+    }
+    public var teal10: UIColor? {
+        .init(red: 0.6980392156862745, green: 1, blue: 0.9686274509803922, alpha: 1.0)
+    }
+    public var teal15: UIColor? {
+        .init(red: 0.4549019607843137, green: 0.996078431372549, blue: 0.9490196078431372, alpha: 1.0)
+    }
+    public var teal20: UIColor? {
+        .init(red: 0.18823529411764706, green: 0.9529411764705882, blue: 0.9372549019607843, alpha: 1.0)
+    }
+    public var teal30: UIColor? {
+        .init(red: 0.14901960784313725, green: 0.8196078431372549, blue: 0.8235294117647058, alpha: 1.0)
+    }
+    public var teal40: UIColor? {
+        .init(red: 0.11372549019607843, green: 0.6745098039215687, blue: 0.6901960784313725, alpha: 1.0)
+    }
+    public var teal50: UIColor? {
+        .init(red: 0.09803921568627451, green: 0.6039215686274509, blue: 0.6235294117647059, alpha: 1.0)
+    }
+    public var teal60: UIColor? {
+        .init(red: 0.07058823529411765, green: 0.4666666666666667, blue: 0.49411764705882355, alpha: 1.0)
+    }
+    public var teal70: UIColor? {
+        .init(red: 0.047058823529411764, green: 0.33725490196078434, blue: 0.3607843137254902, alpha: 1.0)
+    }
+    public var teal80: UIColor? {
+        .init(red: 0.03529411764705882, green: 0.27058823529411763, blue: 0.2980392156862745, alpha: 1.0)
+    }
+    public var teal90: UIColor? {
+        .init(red: 0.0196078431372549, green: 0.14901960784313725, blue: 0.16470588235294117, alpha: 1.0)
+    }
+    public var teal95: UIColor? {
+        .init(red: 0.011764705882352941, green: 0.08627450980392157, blue: 0.09803921568627451, alpha: 1.0)
+    }
+    public var teal05: UIColor? {
+        .init(red: 0.8470588235294118, green: 1, blue: 0.9764705882352941, alpha: 1.0)
+    }
+    public var blue10: UIColor? {
+        .init(red: 0.8901960784313725, green: 0.9568627450980393, blue: 1, alpha: 1.0)
+    }
+    public var blue15: UIColor? {
+        .init(red: 0.8352941176470589, green: 0.9333333333333333, blue: 1, alpha: 1.0)
+    }
+    public var blue20: UIColor? {
+        .init(red: 0.6705882352941176, green: 0.8509803921568627, blue: 1, alpha: 1.0)
+    }
+    public var blue30: UIColor? {
+        .init(red: 0.47058823529411764, green: 0.7411764705882353, blue: 1, alpha: 1.0)
+    }
+    public var blue40: UIColor? {
+        .init(red: 0.2784313725490196, green: 0.6313725490196078, blue: 1, alpha: 1.0)
+    }
+    public var blue50: UIColor? {
+        .init(red: 0.09019607843137255, green: 0.5254901960784314, blue: 1, alpha: 1.0)
+    }
+    public var blue60: UIColor? {
+        .init(red: 0.06274509803921569, green: 0.4196078431372549, blue: 0.8352941176470589, alpha: 1.0)
+    }
+    public var blue70: UIColor? {
+        .init(red: 0.0392156862745098, green: 0.3254901960784314, blue: 0.6745098039215687, alpha: 1.0)
+    }
+    public var blue80: UIColor? {
+        .init(red: 0.0196078431372549, green: 0.23529411764705882, blue: 0.5098039215686274, alpha: 1.0)
+    }
+    public var blue90: UIColor? {
+        .init(red: 0.00784313725490196, green: 0.14901960784313725, blue: 0.34509803921568627, alpha: 1.0)
+    }
+    public var blue95: UIColor? {
+        .init(red: 0, green: 0.07450980392156863, blue: 0.1803921568627451, alpha: 1.0)
+    }
+    public var blue05: UIColor? {
+        .init(red: 0.9372549019607843, green: 0.9725490196078431, blue: 1, alpha: 1.0)
+    }
+    public var purple10: UIColor? {
+        .init(red: 0.9764705882352941, green: 0.9098039215686274, blue: 1, alpha: 1.0)
+    }
+    public var purple15: UIColor? {
+        .init(red: 0.9647058823529412, green: 0.8627450980392157, blue: 1, alpha: 1.0)
+    }
+    public var purple20: UIColor? {
+        .init(red: 0.9490196078431372, green: 0.8156862745098039, blue: 1, alpha: 1.0)
+    }
+    public var purple30: UIColor? {
+        .init(red: 0.8705882352941177, green: 0.6431372549019608, blue: 1, alpha: 1.0)
+    }
+    public var purple40: UIColor? {
+        .init(red: 0.8, green: 0.47843137254901963, blue: 0.984313725490196, alpha: 1.0)
+    }
+    public var purple50: UIColor? {
+        .init(red: 0.7294117647058823, green: 0.3215686274509804, blue: 0.9607843137254902, alpha: 1.0)
+    }
+    public var purple60: UIColor? {
+        .init(red: 0.6313725490196078, green: 0.10196078431372549, blue: 0.9215686274509803, alpha: 1.0)
+    }
+    public var purple70: UIColor? {
+        .init(red: 0.4823529411764706, green: 0.0196078431372549, blue: 0.7294117647058823, alpha: 1.0)
+    }
+    public var purple80: UIColor? {
+        .init(red: 0.36470588235294116, green: 0.011764705882352941, blue: 0.5490196078431373, alpha: 1.0)
+    }
+    public var purple90: UIColor? {
+        .init(red: 0.24705882352941178, green: 0.00392156862745098, blue: 0.3686274509803922, alpha: 1.0)
+    }
+    public var purple95: UIColor? {
+        .init(red: 0.12549019607843137, green: 0, blue: 0.18823529411764706, alpha: 1.0)
+    }
+    public var purple05: UIColor? {
+        .init(red: 0.984313725490196, green: 0.9490196078431372, blue: 1, alpha: 1.0)
+    }
+    public var fuchsia10: UIColor? {
+        .init(red: 1, green: 0.8862745098039215, blue: 1, alpha: 1.0)
+    }
+    public var fuchsia15: UIColor? {
+        .init(red: 1, green: 0.8313725490196079, blue: 1, alpha: 1.0)
+    }
+    public var fuchsia20: UIColor? {
+        .init(red: 1, green: 0.7725490196078432, blue: 1, alpha: 1.0)
+    }
+    public var fuchsia30: UIColor? {
+        .init(red: 0.9803921568627451, green: 0.5764705882352941, blue: 0.984313725490196, alpha: 1.0)
+    }
+    public var fuchsia40: UIColor? {
+        .init(red: 0.9294117647058824, green: 0.3058823529411765, blue: 0.9058823529411765, alpha: 1.0)
+    }
+    public var fuchsia50: UIColor? {
+        .init(red: 0.8784313725490196, green: 0.06274509803921569, blue: 0.803921568627451, alpha: 1.0)
+    }
+    public var fuchsia60: UIColor? {
+        .init(red: 0.7215686274509804, green: 0.043137254901960784, blue: 0.6470588235294118, alpha: 1.0)
+    }
+    public var fuchsia70: UIColor? {
+        .init(red: 0.5686274509803921, green: 0.023529411764705882, blue: 0.49411764705882355, alpha: 1.0)
+    }
+    public var fuchsia80: UIColor? {
+        .init(red: 0.4117647058823529, green: 0.011764705882352941, blue: 0.34901960784313724, alpha: 1.0)
+    }
+    public var fuchsia90: UIColor? {
+        .init(red: 0.2549019607843137, green: 0.00392156862745098, blue: 0.21176470588235294, alpha: 1.0)
+    }
+    public var fuchsia95: UIColor? {
+        .init(red: 0.17647058823529413, green: 0, blue: 0.1450980392156863, alpha: 1.0)
+    }
+    public var fuchsia05: UIColor? {
+        .init(red: 1, green: 0.9450980392156862, blue: 1, alpha: 1.0)
+    }
+    public var red10: UIColor? {
+        .init(red: 1, green: 0.9176470588235294, blue: 0.9176470588235294, alpha: 1.0)
+    }
+    public var red15: UIColor? {
+        .init(red: 1, green: 0.8745098039215686, blue: 0.8745098039215686, alpha: 1.0)
+    }
+    public var red20: UIColor? {
+        .init(red: 1, green: 0.8313725490196079, blue: 0.8274509803921568, alpha: 1.0)
+    }
+    public var red30: UIColor? {
+        .init(red: 1, green: 0.6666666666666666, blue: 0.6549019607843137, alpha: 1.0)
+    }
+    public var red40: UIColor? {
+        .init(red: 0.9803921568627451, green: 0.43529411764705883, blue: 0.40784313725490196, alpha: 1.0)
+    }
+    public var red50: UIColor? {
+        .init(red: 0.9450980392156862, green: 0.23137254901960785, blue: 0.17647058823529413, alpha: 1.0)
+    }
+    public var red60: UIColor? {
+        .init(red: 0.7764705882352941, green: 0.17254901960784313, blue: 0.11764705882352941, alpha: 1.0)
+    }
+    public var red70: UIColor? {
+        .init(red: 0.6078431372549019, green: 0.12156862745098039, blue: 0.06666666666666667, alpha: 1.0)
+    }
+    public var red80: UIColor? {
+        .init(red: 0.4392156862745098, green: 0.0784313725490196, blue: 0.03137254901960784, alpha: 1.0)
+    }
+    public var red90: UIColor? {
+        .init(red: 0.27058823529411763, green: 0.043137254901960784, blue: 0.011764705882352941, alpha: 1.0)
+    }
+    public var red95: UIColor? {
+        .init(red: 0.1843137254901961, green: 0.027450980392156862, blue: 0.00392156862745098, alpha: 1.0)
+    }
+    public var red05: UIColor? {
+        .init(red: 1, green: 0.9607843137254902, blue: 0.9568627450980393, alpha: 1.0)
+    }
+    public var yellowOrange10: UIColor? {
+        .init(red: 1, green: 0.9725490196078431, blue: 0.6313725490196078, alpha: 1.0)
+    }
+    public var yellowOrange15: UIColor? {
+        .init(red: 1, green: 0.8666666666666667, blue: 0.4196078431372549, alpha: 1.0)
+    }
+    public var yellowOrange20: UIColor? {
+        .init(red: 0.996078431372549, green: 0.803921568627451, blue: 0.3176470588235294, alpha: 1.0)
+    }
+    public var yellowOrange30: UIColor? {
+        .init(red: 0.9725490196078431, green: 0.6588235294117647, blue: 0.12156862745098039, alpha: 1.0)
+    }
+    public var yellowOrange40: UIColor? {
+        .init(red: 0.9607843137254902, green: 0.5764705882352941, blue: 0.027450980392156862, alpha: 1.0)
+    }
+    public var yellowOrange50: UIColor? {
+        .init(red: 0.803921568627451, green: 0.44313725490196076, blue: 0.0196078431372549, alpha: 1.0)
+    }
+    public var yellowOrange60: UIColor? {
+        .init(red: 0.6470588235294118, green: 0.3254901960784314, blue: 0.011764705882352941, alpha: 1.0)
+    }
+    public var yellowOrange70: UIColor? {
+        .init(red: 0.49019607843137253, green: 0.2235294117647059, blue: 0.00784313725490196, alpha: 1.0)
+    }
+    public var yellowOrange80: UIColor? {
+        .init(red: 0.4117647058823529, green: 0.17647058823529413, blue: 0.00392156862745098, alpha: 1.0)
+    }
+    public var yellowOrange90: UIColor? {
+        .init(red: 0.2549019607843137, green: 0.09803921568627451, blue: 0, alpha: 1.0)
+    }
+    public var yellowOrange95: UIColor? {
+        .init(red: 0.17647058823529413, green: 0.06274509803921569, blue: 0, alpha: 1.0)
+    }
+    public var yellowOrange05: UIColor? {
+        .init(red: 1, green: 0.984313725490196, blue: 0.7843137254901961, alpha: 1.0)
+    }
+    public var gold10: UIColor? {
+        .init(red: 1, green: 0.9490196078431372, blue: 0.7490196078431373, alpha: 1.0)
+    }
+    public var gold15: UIColor? {
+        .init(red: 1, green: 0.9098039215686274, blue: 0.6470588235294118, alpha: 1.0)
+    }
+    public var gold20: UIColor? {
+        .init(red: 0.9686274509803922, green: 0.8313725490196079, blue: 0.4470588235294118, alpha: 1.0)
+    }
+    public var gold30: UIColor? {
+        .init(red: 0.9019607843137255, green: 0.6862745098039216, blue: 0.08627450980392157, alpha: 1.0)
+    }
+    public var gold40: UIColor? {
+        .init(red: 0.7568627450980392, green: 0.5725490196078431, blue: 0.058823529411764705, alpha: 1.0)
+    }
+    public var gold50: UIColor? {
+        .init(red: 0.6823529411764706, green: 0.5137254901960784, blue: 0.047058823529411764, alpha: 1.0)
+    }
+    public var gold60: UIColor? {
+        .init(red: 0.5372549019607843, green: 0.403921568627451, blue: 0.027450980392156862, alpha: 1.0)
+    }
+    public var gold70: UIColor? {
+        .init(red: 0.39215686274509803, green: 0.2901960784313726, blue: 0.011764705882352941, alpha: 1.0)
+    }
+    public var gold80: UIColor? {
+        .init(red: 0.3176470588235294, green: 0.23529411764705882, blue: 0.00784313725490196, alpha: 1.0)
+    }
+    public var gold90: UIColor? {
+        .init(red: 0.17254901960784313, green: 0.12549019607843137, blue: 0, alpha: 1.0)
+    }
+    public var gold95: UIColor? {
+        .init(red: 0.09803921568627451, green: 0.07450980392156863, blue: 0, alpha: 1.0)
+    }
+    public var gold05: UIColor? {
+        .init(red: 1, green: 0.9725490196078431, blue: 0.8588235294117647, alpha: 1.0)
+    }
+    public var brandPrimary: UIColor? {
+        .init(red: 1, green: 0.26666666666666666, blue: 0.34509803921568627, alpha: 1.0)
+    }
+    public var brandPrimaryA11y: UIColor? {
+        .init(red: 0.8313725490196079, green: 0, blue: 0.30980392156862746, alpha: 1.0)
+    }
+    public var brandGradientStart: UIColor? {
+        .init(red: 0.9921568627450981, green: 0.14901960784313725, blue: 0.47843137254901963, alpha: 1.0)
+    }
+    public var brandGradientEnd: UIColor? {
+        .init(red: 1, green: 0.3764705882352941, blue: 0.21176470588235294, alpha: 1.0)
+    }
+    public var thirdPartySpotifyPrimary: UIColor? {
+        .init(red: 0.11372549019607843, green: 0.7254901960784313, blue: 0.32941176470588235, alpha: 1.0)
+    }
+    public var thirdPartySpotifyPrimaryInverse: UIColor? {
+        .init(red: 0.09803921568627451, green: 0.0784313725490196, blue: 0.0784313725490196, alpha: 1.0)
+    }
+    public var thirdPartyNoonlightPrimary: UIColor? {
+        .init(red: 0.08627450980392157, green: 0.43137254901960786, blue: 0.984313725490196, alpha: 1.0)
+    }
+    public var thirdPartyNoonlightSecondary: UIColor? {
+        .init(red: 0.5058823529411764, green: 0.6941176470588235, blue: 0.9803921568627451, alpha: 1.0)
+    }
+    public var thirdPartyFacebookPrimary: UIColor? {
+        .init(red: 0.09411764705882353, green: 0.4666666666666667, blue: 0.9490196078431372, alpha: 1.0)
+    }
+    public var thirdPartyLinePrimary: UIColor? {
+        .init(red: 0.023529411764705882, green: 0.7803921568627451, blue: 0.3333333333333333, alpha: 1.0)
+    }
+    public var thirdPartyLineA11y: UIColor? {
+        .init(red: 0.00392156862745098, green: 0.6745098039215687, blue: 0.2784313725490196, alpha: 1.0)
+    }
+    public var vaultIndigo20: UIColor? {
+        .init(red: 0.8745098039215686, green: 0.8509803921568627, blue: 1, alpha: 1.0)
+    }
+    public var vaultIndigo95: UIColor? {
+        .init(red: 0.06666666666666667, green: 0.047058823529411764, blue: 0.16862745098039217, alpha: 1.0)
+    }
+    public var vaultPrimary: UIColor? {
+        .init(red: 0.37254901960784315, green: 0.26666666666666666, blue: 0.9176470588235294, alpha: 1.0)
+    }
+    public var vaultPrimaryLight: UIColor? {
+        .init(red: 0.49019607843137253, green: 0.396078431372549, blue: 0.9882352941176471, alpha: 1.0)
+    }
+    public var matchExpirationPrimary: UIColor? {
+        .init(red: 0.7764705882352941, green: 0, blue: 0.23529411764705882, alpha: 1.0)
+    }
+    public var matchExpirationSecondary: UIColor? {
+        .init(red: 0.8274509803921568, green: 0.0392156862745098, blue: 0.7176470588235294, alpha: 1.0)
+    }
+    public var matchExpirationPrimaryOnDark: UIColor? {
+        .init(red: 0.996078431372549, green: 0, blue: 0.30196078431372547, alpha: 1.0)
+    }
+    public var sparksGrayBlue15: UIColor? {
+        .init(red: 0.9372549019607843, green: 0.9490196078431372, blue: 0.984313725490196, alpha: 1.0)
+    }
+    public var sparksGrayBlue30: UIColor? {
+        .init(red: 0.8352941176470589, green: 0.8666666666666667, blue: 0.9568627450980393, alpha: 1.0)
+    }
+    public var sparksGrayBlue80: UIColor? {
+        .init(red: 0.2196078431372549, green: 0.2196078431372549, blue: 0.2196078431372549, alpha: 1.0)
+    }
+    public var sparksGrayBlue90: UIColor? {
+        .init(red: 0.13725490196078433, green: 0.1568627450980392, blue: 0.20784313725490197, alpha: 1.0)
+    }
+    public var sparksYellow20: UIColor? {
+        .init(red: 0.9450980392156862, green: 0.9607843137254902, blue: 0.0196078431372549, alpha: 1.0)
+    }
+    public var sparksYellow30: UIColor? {
+        .init(red: 0.996078431372549, green: 0.9529411764705882, blue: 0, alpha: 1.0)
+    }
+    public var sparksOrange50: UIColor? {
+        .init(red: 0.9215686274509803, green: 0.44313725490196076, blue: 0, alpha: 1.0)
+    }
+    public var sparksRed60: UIColor? {
+        .init(red: 0.9098039215686274, green: 0, blue: 0.21568627450980393, alpha: 1.0)
+    }
+    public var sparksTeal20: UIColor? {
+        .init(red: 0, green: 0.9607843137254902, blue: 1, alpha: 1.0)
+    }
+    public var sparksBlue50: UIColor? {
+        .init(red: 0.0392156862745098, green: 0.596078431372549, blue: 1, alpha: 1.0)
+    }
+    public var sparksBlue70: UIColor? {
+        .init(red: 0, green: 0.3411764705882353, blue: 1, alpha: 1.0)
+    }
+    public var sparksGreen20: UIColor? {
+        .init(red: 0.7215686274509804, green: 1, blue: 0.37254901960784315, alpha: 1.0)
+    }
+    public var sparksGreen30: UIColor? {
+        .init(red: 0.4470588235294118, green: 0.8823529411764706, blue: 0.36470588235294116, alpha: 1.0)
+    }
+    public var sparksGreen40: UIColor? {
+        .init(red: 0.011764705882352941, green: 0.6666666666666666, blue: 0.396078431372549, alpha: 1.0)
+    }
+    public var sparksPurple60: UIColor? {
+        .init(red: 0.611764705882353, green: 0.15294117647058825, blue: 1, alpha: 1.0)
+    }
+    public var sparksPink45: UIColor? {
+        .init(red: 1, green: 0.10588235294117647, blue: 0.9725490196078431, alpha: 1.0)
+    }
+    public var brandGradient0: UIColor? { brandGradientStart }
+    public var brandGradient1: UIColor? { brandGradientEnd }
+    public var brandSubtle0: UIColor? { white }
+    public var brandSubtle1: UIColor? { red20 }
+    public var brandSubtleOnDark0: UIColor? { gray95 }
+    public var brandSubtleOnDark1: UIColor? { red95 }
+    public var gamepadRewind0: UIColor? { yellowOrange30 }
+    public var gamepadRewind1: UIColor? { yellowOrange15 }
+    public var gamepadRewindOnDark0: UIColor? { yellowOrange40 }
+    public var gamepadRewindOnDark1: UIColor? { yellowOrange15 }
+    public var gamepadNope0: UIColor? { brandGradientStart }
+    public var gamepadNope1: UIColor? { brandGradientEnd }
+    public var gamepadNopeOnDark0: UIColor? { red50 }
+    public var gamepadNopeOnDark1: UIColor? { fuchsia50 }
+    public var gamepadSuperLike0: UIColor? { blue40 }
+    public var gamepadSuperLike1: UIColor? { teal20 }
+    public var gamepadSuperLikeOnDark0: UIColor? { blue50 }
+    public var gamepadSuperLikeOnDark1: UIColor? { teal15 }
+    public var gamepadSuperLikeOnLight0: UIColor? { blue50 }
+    public var gamepadSuperLikeOnLight1: UIColor? { teal50 }
+    public var gamepadSuperLikeSubtle0: UIColor? { white }
+    public var gamepadSuperLikeSubtle1: UIColor? { blue15 }
+    public var gamepadSuperLikeSubtleOnDark0: UIColor? { gray95 }
+    public var gamepadSuperLikeSubtleOnDark1: UIColor? { blue90 }
+    public var gamepadLike0: UIColor? { green30 }
+    public var gamepadLike1: UIColor? { teal20 }
+    public var gamepadLikeOnDark0: UIColor? { green20 }
+    public var gamepadLikeOnDark1: UIColor? { teal15 }
+    public var gamepadLikeOnLight0: UIColor? { green50 }
+    public var gamepadLikeOnLight1: UIColor? { teal50 }
+    public var gamepadLikeSubtle0: UIColor? { white }
+    public var gamepadLikeSubtle1: UIColor? { green10 }
+    public var gamepadLikeSubtleOnDark0: UIColor? { gray95 }
+    public var gamepadLikeSubtleOnDark1: UIColor? { green90 }
+    public var gamepadBoost0: UIColor? { purple60 }
+    public var gamepadBoost1: UIColor? { purple40 }
+    public var gamepadBoostOnDark0: UIColor? { purple60 }
+    public var gamepadBoostOnDark1: UIColor? { fuchsia50 }
+    public var gamepadBoostSubtle0: UIColor? { white }
+    public var gamepadBoostSubtle1: UIColor? { purple15 }
+    public var gamepadBoostSubtleOnDark0: UIColor? { gray95 }
+    public var gamepadBoostSubtleOnDark1: UIColor? { purple90 }
+    public var gamepadSuperBoost0: UIColor? { purple50 }
+    public var gamepadSuperBoost1: UIColor? { fuchsia30 }
+    public var gamepadSuperBoostOnDark0: UIColor? { purple50 }
+    public var gamepadSuperBoostOnDark1: UIColor? { fuchsia30 }
+    public var gamepadSuperBoostSubtle0: UIColor? { white }
+    public var gamepadSuperBoostSubtle1: UIColor? { fuchsia15 }
+    public var gamepadSuperBoostSubtleOnDark0: UIColor? { gray95 }
+    public var gamepadSuperBoostSubtleOnDark1: UIColor? { fuchsia90 }
+    public var gamepadSparksRewind0: UIColor? { yellowOrange30 }
+    public var gamepadSparksRewind1: UIColor? { sparksYellow30 }
+    public var gamepadSparksNope0: UIColor? { red50 }
+    public var gamepadSparksNope1: UIColor? { sparksPink45 }
+    public var gamepadSparksSuperLike0: UIColor? { sparksBlue70 }
+    public var gamepadSparksSuperLike1: UIColor? { sparksTeal20 }
+    public var gamepadSparksLike0: UIColor? { sparksGreen40 }
+    public var gamepadSparksLike1: UIColor? { sparksYellow20 }
+    public var gamepadSparksBoost0: UIColor? { purple50 }
+    public var gamepadSparksBoost1: UIColor? { fuchsia40 }
+    public var exploreAttributionGradient0: UIColor? { brandPrimaryA11y }
+    public var exploreAttributionGradient1: UIColor? { fuchsia70 }
+    public var festivalModeGradient0: UIColor? { blue80 }
+    public var festivalModeGradient1: UIColor? { purple60 }
+    public var spotifyMusicModeGradient0: UIColor? { green90 }
+    public var spotifyMusicModeGradient1: UIColor? { green70 }
+    public var hotTakesGradient0: UIColor? { purple80 }
+    public var hotTakesGradient1: UIColor? { fuchsia60 }
+    public var passionsGradient0: UIColor? { brandGradientEnd }
+    public var passionsGradient1: UIColor? { fuchsia50 }
+    public var vibesGradient0: UIColor? { yellowOrange30 }
+    public var vibesGradient5: UIColor? { fuchsia50 }
+    public var vibesGradient10: UIColor? { teal20 }
+    public var revenueGold0: UIColor? { gold30 }
+    public var revenueGold1: UIColor? { gold20 }
+    public var revenueGoldShine0: UIColor? { gold30 }
+    public var revenueGoldShine5: UIColor? { gold20 }
+    public var revenueGoldShine10: UIColor? { gold30 }
+    public var revenueGoldShineAnimation0: UIColor? { gold20 }
+    public var revenueGoldShineAnimation125: UIColor? { gold20 }
+    public var revenueGoldShineAnimation250: UIColor? { gold30 }
+    public var revenueGoldShineAnimation375: UIColor? { gold20 }
+    public var revenueGoldShineAnimation500: UIColor? { gold15 }
+    public var revenueGoldShineAnimation625: UIColor? { gold20 }
+    public var revenueGoldShineAnimation750: UIColor? { gold30 }
+    public var revenueGoldShineAnimation875: UIColor? { gold20 }
+    public var revenueGoldShineAnimation1000: UIColor? { gold20 }
+    public var revenueGoldOnDark0: UIColor? { gold30 }
+    public var revenueGoldOnDark1: UIColor? { gold15 }
+    public var revenueGoldShineOnDark0: UIColor? { gold30 }
+    public var revenueGoldShineOnDark5: UIColor? { gold20 }
+    public var revenueGoldShineOnDark10: UIColor? { gold30 }
+    public var revenueGoldShineAnimationOnDark0: UIColor? { gold20 }
+    public var revenueGoldShineAnimationOnDark125: UIColor? { gold20 }
+    public var revenueGoldShineAnimationOnDark250: UIColor? { gold30 }
+    public var revenueGoldShineAnimationOnDark375: UIColor? { gold20 }
+    public var revenueGoldShineAnimationOnDark500: UIColor? { gold15 }
+    public var revenueGoldShineAnimationOnDark625: UIColor? { gold20 }
+    public var revenueGoldShineAnimationOnDark750: UIColor? { gold30 }
+    public var revenueGoldShineAnimationOnDark875: UIColor? { gold20 }
+    public var revenueGoldShineAnimationOnDark1000: UIColor? { gold20 }
+    public var revenueGoldSubtle0: UIColor? { white }
+    public var revenueGoldSubtle1: UIColor? { gold15 }
+    public var revenueGoldSubtleOnDark0: UIColor? { gray95 }
+    public var revenueGoldSubtleOnDark1: UIColor? { gold90 }
+    public var revenuePlatinum0: UIColor? { gray95 }
+    public var revenuePlatinum1: UIColor? { gray60 }
+    public var revenuePlatinumShine0: UIColor? { gray95 }
+    public var revenuePlatinumShine5: UIColor? { gray60 }
+    public var revenuePlatinumShine10: UIColor? { gray95 }
+    public var revenuePlatinumShineAnimation0: UIColor? { gray90 }
+    public var revenuePlatinumShineAnimation125: UIColor? { gray90 }
+    public var revenuePlatinumShineAnimation250: UIColor? { gray95 }
+    public var revenuePlatinumShineAnimation375: UIColor? { gray90 }
+    public var revenuePlatinumShineAnimation500: UIColor? { gray80 }
+    public var revenuePlatinumShineAnimation625: UIColor? { gray90 }
+    public var revenuePlatinumShineAnimation750: UIColor? { gray95 }
+    public var revenuePlatinumShineAnimation875: UIColor? { gray90 }
+    public var revenuePlatinumShineAnimation1000: UIColor? { gray90 }
+    public var revenuePlatinumOnDark0: UIColor? { gray30 }
+    public var revenuePlatinumOnDark1: UIColor? { gray10 }
+    public var revenuePlatinumShineOnDark0: UIColor? { gray30 }
+    public var revenuePlatinumShineOnDark5: UIColor? { gray10 }
+    public var revenuePlatinumShineOnDark10: UIColor? { gray30 }
+    public var revenuePlatinumShineAnimationOnDark0: UIColor? { gray20 }
+    public var revenuePlatinumShineAnimationOnDark125: UIColor? { gray20 }
+    public var revenuePlatinumShineAnimationOnDark250: UIColor? { gray30 }
+    public var revenuePlatinumShineAnimationOnDark375: UIColor? { gray20 }
+    public var revenuePlatinumShineAnimationOnDark500: UIColor? { gray15 }
+    public var revenuePlatinumShineAnimationOnDark625: UIColor? { gray20 }
+    public var revenuePlatinumShineAnimationOnDark750: UIColor? { gray30 }
+    public var revenuePlatinumShineAnimationOnDark875: UIColor? { gray20 }
+    public var revenuePlatinumShineAnimationOnDark1000: UIColor? { gray20 }
+    public var revenuePlatinumSubtle0: UIColor? { white }
+    public var revenuePlatinumSubtle1: UIColor? { gray20 }
+    public var revenuePlatinumSubtleOnDark0: UIColor? { gray95 }
+    public var revenuePlatinumSubtleOnDark1: UIColor? { gray90 }
+    public var revenuePlus0: UIColor? { brandGradientStart }
+    public var revenuePlus1: UIColor? { brandGradientEnd }
+    public var revenuePlusOnDark0: UIColor? { brandGradientStart }
+    public var revenuePlusOnDark1: UIColor? { brandGradientEnd }
+    public var revenuePlusSubtle0: UIColor? { white }
+    public var revenuePlusSubtle1: UIColor? { red20 }
+    public var revenuePlusSubtleOnDark0: UIColor? { gray95 }
+    public var revenuePlusSubtleOnDark1: UIColor? { red95 }
+    public var vaultGradient0: UIColor? { purple60 }
+    public var vaultGradient5: UIColor? { vaultPrimary }
+    public var vaultGradient10: UIColor? { blue60 }
+    public var vaultSubtleOnLight0: UIColor? { white }
+    public var vaultSubtleOnLight1: UIColor? { vaultIndigo20 }
+    public var vaultSubtleOnDark0: UIColor? { gray95 }
+    public var vaultSubtleOnDark1: UIColor? { vaultIndigo95 }
+    public var matchExpirationGradient0: UIColor? { matchExpirationPrimary }
+    public var matchExpirationGradient1: UIColor? { matchExpirationSecondary }
+    public var matchExpirationGradientOnDark0: UIColor? { matchExpirationPrimaryOnDark }
+    public var matchExpirationGradientOnDark1: UIColor? { fuchsia50 }
+    public var sparksBackgroundGradient0: UIColor? { sparksGrayBlue15 }
+    public var sparksBackgroundGradient1: UIColor? { white }
+    public var sparksBackgroundGradientDark0: UIColor? { black }
+    public var sparksBackgroundGradientDark1: UIColor? { black }
+    public var sparksMatchmakerAttribution0: UIColor? { sparksGreen30 }
+    public var sparksMatchmakerAttribution1: UIColor? { sparksGreen20 }
+    public var opacityBlack10: UIColor? {
+        black?.withAlphaComponent(0.098)
+    }
+    public var opacityBlack15: UIColor? {
+        black?.withAlphaComponent(0.149)
+    }
+    public var opacityBlack20: UIColor? {
+        black?.withAlphaComponent(0.2)
+    }
+    public var opacityBlack30: UIColor? {
+        black?.withAlphaComponent(0.302)
+    }
+    public var opacityBlack40: UIColor? {
+        black?.withAlphaComponent(0.4)
+    }
+    public var opacityBlack50: UIColor? {
+        black?.withAlphaComponent(0.502)
+    }
+    public var opacityBlack60: UIColor? {
+        black?.withAlphaComponent(0.6)
+    }
+    public var opacityBlack70: UIColor? {
+        black?.withAlphaComponent(0.702)
+    }
+    public var opacityBlack80: UIColor? {
+        black?.withAlphaComponent(0.8)
+    }
+    public var opacityBlack90: UIColor? {
+        black?.withAlphaComponent(0.902)
+    }
+    public var opacityBlack95: UIColor? {
+        black?.withAlphaComponent(0.949)
+    }
+    public var opacityBlack05: UIColor? {
+        black?.withAlphaComponent(0.051)
+    }
+    public var opacityWhite10: UIColor? {
+        white?.withAlphaComponent(0.098)
+    }
+    public var opacityWhite15: UIColor? {
+        white?.withAlphaComponent(0.149)
+    }
+    public var opacityWhite20: UIColor? {
+        white?.withAlphaComponent(0.2)
+    }
+    public var opacityWhite30: UIColor? {
+        white?.withAlphaComponent(0.302)
+    }
+    public var opacityWhite40: UIColor? {
+        white?.withAlphaComponent(0.4)
+    }
+    public var opacityWhite50: UIColor? {
+        white?.withAlphaComponent(0.502)
+    }
+    public var opacityWhite60: UIColor? {
+        white?.withAlphaComponent(0.6)
+    }
+    public var opacityWhite70: UIColor? {
+        white?.withAlphaComponent(0.702)
+    }
+    public var opacityWhite80: UIColor? {
+        white?.withAlphaComponent(0.8)
+    }
+    public var opacityWhite90: UIColor? {
+        white?.withAlphaComponent(0.902)
+    }
+    public var opacityWhite95: UIColor? {
+        white?.withAlphaComponent(0.949)
+    }
+    public var opacityWhite05: UIColor? {
+        white?.withAlphaComponent(0.051)
+    }
+
+
     // Component
     public var backgroundBadgeVerifiedDefault: UIColor? { blue60 }
     public var backgroundBadgeOnlineNowDefault: UIColor? { green15 }
@@ -790,13 +1462,13 @@ public struct StandardLight: StyleManagerProtocol {
     public var foregroundSecondary: UIColor? { gray70 }
     public var foregroundSecondaryInverse: UIColor? { gray40 }
     public var foregroundInactive: UIColor? { gray60 }
-    public var foregroundDisabled: UIColor? { gray30 }
+    public var foregroundDisabled: UIColor? { gray40 }
     public var foregroundPrimaryStaticLight: UIColor? { white }
     public var foregroundPrimaryStaticDark: UIColor? { gray90 }
     public var foregroundSecondaryStaticLight: UIColor? { gray30 }
     public var foregroundSecondaryStaticDark: UIColor? { gray70 }
-    public var foregroundBorderPrimary: UIColor? { gray30 }
-    public var foregroundBorderSecondary: UIColor? { gray15 }
+    public var foregroundBorderPrimary: UIColor? { gray50 }
+    public var foregroundBorderSecondary: UIColor? { gray20 }
     public var iconPrimary: UIColor? { gray90 }
     public var iconSecondary: UIColor? { gray50 }
     public var iconPrimaryInverse: UIColor? { gray05 }
@@ -926,7 +1598,7 @@ public struct StandardLight: StyleManagerProtocol {
     public var deviceHomeIndicator: UIColor? { foregroundPrimary }
     public var deviceStatusBar: UIColor? { foregroundPrimary }
     public var deviceStatusBarInverse: UIColor? { foregroundPrimaryInverse }
-    public var dividerPrimary: UIColor? { foregroundBorderPrimary }
+    public var dividerPrimary: UIColor? { foregroundBorderSecondary }
     public var dividerSparks: UIColor? { foregroundBorderSecondary }
     public var foregroundPrimaryStaticOnDark: UIColor? { foregroundPrimaryStaticLight }
     public var foregroundBorderElevated: UIColor? { foregroundBorderPrimary?.withAlphaComponent(0) }

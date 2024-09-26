@@ -8,7 +8,7 @@
 import UIKit
 
 @available(iOS 17.0, *)
-public struct StandardDark: StyleManagerProtocol {
+public struct CustomDark: StyleManagerProtocol {
     // Base
     public var transparent: UIColor? {
         UIColor.clear

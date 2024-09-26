@@ -1,8 +1,8 @@
 /**
  * © 2013 - 2024 Tinder, Inc., ALL RIGHTS RESERVED
- * Tinder Obsidian v10.11.0
+ * Tinder Obsidian v10.14.0
  * Do not edit directly
- * Generated on Thu, 12 Sep 2024 22:10:43 GMT
+ * Generated on Tue, 24 Sep 2024 20:08:06 GMT
  */
 
 import UIKit
